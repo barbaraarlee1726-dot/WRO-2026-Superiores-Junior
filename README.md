@@ -5,7 +5,8 @@ Official repository of Team Los Grises Junior for the WORLD ROBOT OLYMPIAD 2026-
 TEAM MEMBERS
 ---------
 Coach:Eduardo Alvarado Gonzalez
-Role: Coach and founder
+Role: Coach and founder.
+
 "An engineer and professor founded the Los Grises Superiores in 2014, since then with outstanding national and international participations."
 
 Barbara Arlee Flores Marroquin
@@ -19,6 +20,7 @@ Role: Programmer
 Alexis Fernando Martínez Tapia
 Age:14
 Role: Mechanic
+
 "I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
 
 Engineering materials
