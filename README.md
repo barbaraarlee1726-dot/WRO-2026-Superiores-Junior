@@ -174,6 +174,29 @@ EV3 Brick controls all motors. Powered by 10V 2050 mAh battery.
   
 In terms of power consumption, the motor typically draws around 250–300 mA under normal load, but this can increase up to 1.2 A when operating under heavy load or stall conditions. Its power output reaches approximately 2.5 W, depending on the applied voltage and load.
 
+## Ultrasonic HC-SR04
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/da485b0f-8730-43e4-9475-f638a68670e4" />
+</div>
+
+
+### Specifications
+
+| **Parameter**             | **Description**                              |
+|----------------------------|----------------------------------------------|
+| **Operating Voltage**      | 5V DC                                        |
+| **Operating Current**      | 15 mA (typical)                              |
+| **Frequency**              | 40 kHz                                       |
+| **Max Range**              | 400 cm (4 m)                                 |
+| **Min Range**              | 2 cm                                         |
+| **Accuracy**               | ±3 mm                                        |
+| **Measuring Angle**        | < 15°                                        |
+| **Trigger Input Signal**   | 10 µs TTL pulse                              |
+| **Echo Output Signal**     | TTL signal, proportional to distance         |
+| **Dimensions**             | 45 mm x 20 mm x 15 mm                        |
+| **Working Temperature**    | -15°C to +70°C                               |
+
 --------------------
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
