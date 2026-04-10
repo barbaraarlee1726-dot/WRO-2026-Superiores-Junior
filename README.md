@@ -1,13 +1,15 @@
 Engineering materials
 ====
 
-|COMPONENT| DESCRIPTION | IMAGE | PURCHASE LINK |
-|---------|-------------|-------|---------------|
+|COMPONENT| DESCRIPTION | IMAGE | 
+|---------|-------------|-------|
 |Arduino Nano  |ATmega328-based microcontroller for control tasks| <div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/18328a348253b487f5b9786535b4f4154215ef86/Arduino%20nano.jpg" /></div>
 |HuskyLens DFRobot|Is an AI-powered machine vision sensor designed to detect faces, objects, lines, colors, and tags without complex algorithms.| <div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/e3f9483b4320a69caed1344681a8937b1457508f/WhatsApp%20Image%202026-04-09%20at%203.21.06%20PM.jpeg" /></div>
 |MPU6050| Is a 6-axis Motion Tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/e3f9483b4320a69caed1344681a8937b1457508f/WhatsApp%20Image%202026-04-09%20at%203.23.07%20PM.jpeg" /></div>
 |TB6612FNG|Is a compact, high-efficiency dual H-bridge motor driver capable of independently controlling two DC motors, at 1.2A continuous current.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/e3f9483b4320a69caed1344681a8937b1457508f/WhatsApp%20Image%202026-04-09%20at%203.21.55%20PM.jpeg" /></div>
 |DC Motor|Is an electrical machine that converts direct current (DC) electrical energy into mechanical energy.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/e3f9483b4320a69caed1344681a8937b1457508f/WhatsApp%20Image%202026-04-09%20at%203.27.52%20PM.jpeg" /></div>
+|Ultrasonic Sensor|Is an ultrasonic distance sensor that uses sonar to determine the distance to an object.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/f2c2550a1c3ef5b1e80aec65f0bf72b3c619f56d/WhatsApp%20Image%202026-04-09%20at%203.25.49%20PM%20(1).jpeg" /></div>
+|Servomotor|Is a rotary or linear actuator designed for high-precision control of position, speed, and acceleration, typically operating within a closed-loop system.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/f2c2550a1c3ef5b1e80aec65f0bf72b3c619f56d/WhatsApp%20Image%202026-04-10%20at%2012.24.31%20PM.jpeg" /></div>
 ## Content
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
