@@ -202,6 +202,24 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 | **Dimensions**             | 45 mm x 20 mm x 15 mm                        |
 | **Working Temperature**    | -15°C to +70°C                               |
 
+##HuskyLens DFRobot
+
+<div align="center"><img width="800" height="600" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.21.06%20PM.jpeg" /></div>
+
+|**Parametrer**|**Description**|
+|--------------|---------------|
+| **Operating Voltage**      | 5V DC|
+| **Operating Current**      |230mA (Typical)|
+| **Frequency**              |400 kHz|
+| **Max Range**              |02.0m|
+| **Min Range**              |0.5m|
+| **Accuracy**               |30f/s
+| **Measuring Angle**        | 320x240|
+| **Trigger Input Signal**   |I2C or UART (serial)|
+| **Echo Output Signal**     |serial UART or I2C interface|
+| **Dimensions**             |52mm x 44.5mm|
+| **Working Temperature**    |36.4°C to 43.2°C|
+
 --------------------
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
