@@ -3,7 +3,7 @@ Engineering materials
 
 |COMPONENT| DESCRIPTION | IMAGE | PURCHASE LINK |
 |---------|-------------|-------|---------------|
-|Arduino Nano  |ATmega328-based microcontroller for control tasks| <div align="center"><img width="100" height="50" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/18328a348253b487f5b9786535b4f4154215ef86/Arduino%20nano.jpg" /></div>
+|Arduino Nano  |ATmega328-based microcontroller for control tasks| <div align="center"><img width="1000" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/18328a348253b487f5b9786535b4f4154215ef86/Arduino%20nano.jpg" /></div>
 |HuskyLens DFRobot|Is an AI-powered machine vision sensor designed to detect faces, objects, lines, colors, and tags without complex algorithms.| 
 ## Content
 
