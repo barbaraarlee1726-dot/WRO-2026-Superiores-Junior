@@ -73,7 +73,20 @@ Engineering materials
 - [Detection and Avoidance Strategies](#detection-and-avoidance-strategies)
 - [WRO 2025 Competition Info](#wro-2025-competition-info)
 
+## Project Overview
 ---
+### Abstract
+Our team present the development and implementation of an autonomous vehicle designed for the World Robot Olympiad 2026– Future Engineers category.
+The competition challenges participants to design, construct, and program a self-driving car capable of completing specific tasks under variable environmental and rule-based conditions.
+The competition consist in two fases:
+Open Challenge:
+-The autonomous vehicle must complete three laps in a predefined track with a limited time.
+-The starting position and driving direction (clockwise or counterclockwise) are randomly assigned before each run.
+Obstacle Challenge:
+-The autonomous vehicle must complete the three laps but now there are pilars with two diferents colors that acts as traffic signals.
+Red pillars → Turn right
+Green pillars → Turn left
+---------------
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
