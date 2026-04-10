@@ -86,6 +86,7 @@ Obstacle Challenge:
 -The autonomous vehicle must complete the three laps but now there are pilars with two diferents colors that acts as traffic signals.
 Red pillars → Turn right
 Green pillars → Turn left
+
 ---------------
 ##Power and Sense Management
 
@@ -172,6 +173,7 @@ EV3 Brick controls all motors. Powered by 10V 2050 mAh battery.
 - **Steering motor (1):** 120–250 mA
   
 In terms of power consumption, the motor typically draws around 250–300 mA under normal load, but this can increase up to 1.2 A when operating under heavy load or stall conditions. Its power output reaches approximately 2.5 W, depending on the applied voltage and load.
+
 --------------------
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
