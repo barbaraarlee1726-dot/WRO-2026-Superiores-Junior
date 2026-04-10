@@ -34,6 +34,8 @@ Alexis Fernando Martínez Tapia
 
 Age:14
 
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/66df84134ffd3b712b60e1dc8538a6b37b800901/WhatsApp%20Image%202026-04-10%20at%203.58.58%20PM.jpeg" /></div>
+
 Role: Mechanic
 
 "I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
