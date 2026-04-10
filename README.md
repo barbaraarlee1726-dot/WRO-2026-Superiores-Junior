@@ -221,6 +221,16 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 | **Working Temperature**    |36.4°C to 43.2°C|
 
 --------------------
+## Obstacle management
+
+The obstacle avoidance system was designed in accordance with the competition rules: a **red pillar** indicates a right turn, while a **green pillar** indicates a left turn.  
+To determine the correct avoidance side, the robot calculates the difference between the **detected X position** from the camera and a predefined **X target**.  
+This approach ensures a reliable and consistent maneuver direction, improving the robot’s decision-making during navigation.
+he vision system was also designed to support the obstacle avoidance logic.
+For this purpose, the X-coordinate at the base of the detected blob was used as the main metric, providing more reliable results than using the object’s area, which occasionally produced inconsistent data.
+
+------
+
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains the video.md file with the link to a video where driving demonstration exists
