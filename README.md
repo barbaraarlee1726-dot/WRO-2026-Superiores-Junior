@@ -38,7 +38,7 @@ Role: Mechanic
 
 "I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
 
-Engineering materials
+## Components and Hardware
 ====
 
 |COMPONENT| DESCRIPTION | IMAGE | 
