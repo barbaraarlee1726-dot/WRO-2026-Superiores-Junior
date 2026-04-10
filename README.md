@@ -87,7 +87,92 @@ Obstacle Challenge:
 Red pillars → Turn right
 Green pillars → Turn left
 ---------------
+##Power and Sense Management
 
+The Power and Sensor Management system of the vehicle is engineered to optimize energy distribution and ensure reliable operation of all electronic components. It carefully regulates the power supply to motors and sensors, maintaining stability and efficiency under varying load conditions. This system enables precise control over sensor readings and motor performance, supporting accurate navigation, obstacle detection, and overall vehicle functionality.
+
+### Battery 18650
+<div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.28.54%20PM.jpeg" /></div>
+
+**Specifications:**
+
+| Specification           | Description                                    |
+|-------------------------|------------------------------------------------|
+| **Type**                | Li-ion Rechargeable                            |
+| **Model**               | 18650                                          |
+| **Nominal Voltage**     | 3.7 V                                          |
+| **Full Charge Voltage** | 4.2 V                                          |
+| **Capacity**            | 2600–3500 mAh (typical)                        |
+| **Discharge Current**   | 5–10 A (continuous), up to 20 A (peak)         |
+| **Charging Current**    | 0.5–1 C                                        |
+| **Dimensions**          | 18 mm diameter × 65 mm length                  |
+| **Weight**              | ~45 g                                          |
+| **Cycle Life**          | 300–500 cycles (typical)                       |
+| **Protection Circuit**  | Optional (PCB for overcharge/discharge/cutoff)|
+
+The 18650 is Li-ion battery is a high-capacity rechargeable cell widely used in electronics and robotics due to its stable voltage output, high energy density, and long cycle life.
+can safely deliver continuous currents of 5–10 A and occasional peak currents up to 20 A,When paired with a protection circuit, it safeguards against overcharging, over-discharging, and short circuits, increasing safety and durability.
+In this setup, we use 18650 batteries to power the Arduino Nano for controlling the ultrasonic sensors. Two 18650 cells are connected to a DC-DC step-up module to increase the voltage, which is then supplied to the Arduino, ensuring stable operation and consistent sensor readings, we We use two 18650 batteries connected in series, providing an output voltage of approximately 7V.
+
+
+
+
+### Microcontroller(Arduino nano)
+<div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/Arduino%20nano.jpg" /></div>
+
+**Specifications:**
+
+| Specification            | Description |
+|---------------------------|-------------|
+| **Microcontroller**       | ATmega328P |
+| **Operating Voltage**     | 5 V |
+| **Input Voltage (recommended)** | 7–12 V |
+| **Input Voltage (limit)** | 6–20 V |
+| **Digital I/O Pins**      | 14 (6 PWM outputs) |
+| **Analog Input Pins**     | 8 |
+| **DC Current per I/O Pin** | 40 mA |
+| **Flash Memory**          | 32 KB (2 KB used by bootloader) |
+| **SRAM**                  | 2 KB |
+| **EEPROM**                | 1 KB |
+| **Clock Speed**           | 16 MHz |
+| **USB Connection**        | Mini USB |
+| **Dimensions**            | 45 mm x 18 mm |
+| **Weight**                | ~7 g |
+
+The Arduino Nano is a compact,microcontroller board based on the ATmega328P. Despite its small size, it offers full functionality with 14 digital I/O pins, 8 analog inputs, and a 16 MHz clock speed.
+It operates at 5V and can be powered through a Mini USB connection, a regulated 5V pin, or an external 7–12V input,
+
+### Medium motor EV3
+<div align="center">
+<img width="500" height="500" alt="EV3 Medium Motor" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" />
+</div>
+
+**Specifications**
+
+| Specification              | Description |
+|-----------------------------|-------------|
+| **Model**                   | EV3 Medium Motor (45503) |
+| **Type**                    | Servo Motor with integrated rotation sensor |
+| **Operating Voltage**       | 9 V DC |
+| **Nominal Power**           | 2.5 W |
+| **No-load Speed**           | ~260 rpm |
+| **Stall Torque**            | ~8 N·cm (0.08 N·m) |
+| **Stall Current**           | ~0.7 A |
+| **Tacho Sensor Resolution** | 1° (360 counts per rotation) |
+| **Weight**                  | 75 g |
+| **Cable Length**            | 25 cm |
+| **Connector Type**          | EV3 Plug |
+| **Control Features**        | Speed, position, and direction control |
+
+It operates at 9V DC and is designed to provide a balance between speed and torque, making it suitable for medium-load
+We connect these motors directly to the EV3, and control them directly with the programming block for these motors, which in our robot consumes the following:
+
+EV3 Brick controls all motors. Powered by 10V 2050 mAh battery.  
+- **Movement motors (2):** 150–250 mA  
+- **Steering motor (1):** 120–250 mA
+  
+In terms of power consumption, the motor typically draws around 250–300 mA under normal load, but this can increase up to 1.2 A when operating under heavy load or stall conditions. Its power output reaches approximately 2.5 W, depending on the applied voltage and load.
+--------------------
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains the video.md file with the link to a video where driving demonstration exists
