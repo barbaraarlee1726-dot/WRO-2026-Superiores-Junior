@@ -2,10 +2,9 @@ Engineering materials
 ====
 
 |COMPONENT| DESCRIPTION | IMAGE | PURCHASE LINK |
-|-----------------------------------------------|
-|Arduino Nano|ATmega328-based   |
-             |microcontroller   |
-             |for control tasks.|
+|---------|-------------|-------|---------------|
+|Arduino  |ATmega328-based microcontroller for control tasks|
+|Nano     |
 ## Content
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
