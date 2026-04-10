@@ -3,8 +3,8 @@ Engineering materials
 
 |COMPONENT| DESCRIPTION | IMAGE | PURCHASE LINK |
 |---------|-------------|-------|---------------|
-|Arduino  |ATmega328-based microcontroller for control tasks|
-|Nano     |
+|Arduino Nano  |ATmega328-based microcontroller for control tasks|
+|HuskyLens DFRobot|Is an AI-powered machine vision sensor designed to detect faces, objects, lines, colors, and tags without complex algorithms.| 
 ## Content
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
