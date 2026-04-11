@@ -24,7 +24,7 @@ Arath Alejandro Reyna Granados
 
 Age:15
 
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-10%20at%202.03.30%20PM.jpeg" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/a03ef2db1c7b82816e94747b85b8fe7dd413cee5/Arath.jpeg" /></div>
 
 Role: Programmer
 
