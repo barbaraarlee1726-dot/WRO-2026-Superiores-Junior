@@ -43,8 +43,8 @@ Role: Mechanic
 ## Components and Hardware
 ====
 
-|COMPONENT| DESCRIPTION | IMAGE | 
-|---------|-------------|-------|
+|COMPONENT| DESCRIPTION | IMAGE | PURCHASE LINK|
+|---------|-------------|-------|--------------|
 |Arduino Nano  |ATmega328-based microcontroller for control tasks| <div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/18328a348253b487f5b9786535b4f4154215ef86/Arduino%20nano.jpg" /></div>
 |HuskyLens DFRobot|Is an AI-powered machine vision sensor designed to detect faces, objects, lines, colors, and tags without complex algorithms.| <div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/e3f9483b4320a69caed1344681a8937b1457508f/WhatsApp%20Image%202026-04-09%20at%203.21.06%20PM.jpeg" /></div>
 |MPU6050| Is a 6-axis Motion Tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/e3f9483b4320a69caed1344681a8937b1457508f/WhatsApp%20Image%202026-04-09%20at%203.23.07%20PM.jpeg" /></div>
