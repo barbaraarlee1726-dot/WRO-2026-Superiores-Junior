@@ -1,6 +1,8 @@
 WRO-2026-FUTURE ENGINEERS
 ---------------------------
 Official repository of Team Los Grises Junior for the WORLD ROBOT OLYMPIAD 2026-Category: Future-Engineers – World Robot Olympiad 2026.
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/Borrador/blob/20f2887a30be3d9ef749a393ca581e7611735c0f/s%20(2).pdf" /></div>
+
 
 TEAM MEMBERS
 ---------
