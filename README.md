@@ -205,7 +205,7 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 | **Dimensions**             | 45 mm x 20 mm x 15 mm                        |
 | **Working Temperature**    | -15°C to +70°C                               |
 
-##HuskyLens DFRobot
+## HuskyLens DFRobot
 
 <div align="center">
 <img width="600" height="800" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.21.06%20PM.jpeg" />
@@ -235,7 +235,7 @@ he vision system was also designed to support the obstacle avoidance logic.
 For this purpose, the X-coordinate at the base of the detected blob was used as the main metric, providing more reliable results than using the object’s area, which occasionally produced inconsistent data.
 
 ------
-##WRO 2026 Competition Info
+## WRO 2026 Competition Info
 ----
 [WRO 2026 RULES Future Engineers English](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
 
