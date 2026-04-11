@@ -38,7 +38,7 @@ Alexis Fernando Martínez Tapia
 
 Age:14
 
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/Borrador/blob/9a22859d131fb2ff31490206cef30814cb31fdd4/Alexis.jpeg" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6fc438b44809f8b7383caa233e0a7e4161a2b77c/Alexis.jpeg" /></div>
 
 Role: Mechanic
 
