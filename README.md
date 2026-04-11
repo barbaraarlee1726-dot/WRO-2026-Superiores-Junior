@@ -102,7 +102,7 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 ##Power Management
 ------------
 ### Battery 18650
-<div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.28.54%20PM.jpeg" /></div>
+<div align="center"><img width="600" height="350" alt="image" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.28.54%20PM.jpeg" /></div>
 
 **Specifications:**
 
