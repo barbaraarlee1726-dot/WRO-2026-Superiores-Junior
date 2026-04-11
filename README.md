@@ -27,7 +27,7 @@ Role:Captain and electronic
 "I got started in robotics in my sophomore year of high school, having been selected for my strong academic performance and adaptability, as well as my interest in challenges and complex designs, and I received a diploma for my achievements.I have honed my skills by taking additional robotics courses at this institution, where, in addition to learning, I received a certificate of completion."
 
 
-Licenciado Arath Alejandro Reyna Granados
+Arath Alejandro Reyna Granados
 
 Age:15
 
