@@ -12,6 +12,7 @@ Role: Coach and founder.
 
 "An engineer and professor founded the Los Grises Superiores in 2014, since then with outstanding national and international participations."
 
+
 Barbara Arlee Flores Marroquin
 
 Age:15
@@ -19,6 +20,7 @@ Age:15
 Role:Captain and electronic 
 
 "I got started in robotics in my sophomore year of high school, having been selected for my strong academic performance and adaptability, as well as my interest in challenges and complex designs, and I received a diploma for my achievements.I have honed my skills by taking additional robotics courses at this institution, where, in addition to learning, I received a certificate of completion."
+
 
 Arath Alejandro Reyna Granados
 
@@ -29,6 +31,7 @@ Age:15
 Role: Programmer
 
 "I started in robotics at age 13 thanks to my mom, who started a robotics course at my school. There, I was told about a summer course offered by the Normal Superior of Nuevo León, Mexico, where I learned many things. After the course ended, a few months passed, and we were invited back. I was selected to compete in WRO."
+
 
 Alexis Fernando Martínez Tapia
 
