@@ -125,8 +125,8 @@ can safely deliver continuous currents of 5–10 A and occasional peak currents 
 In this setup, we use 18650 batteries to power the Arduino Nano for controlling the ultrasonic sensors. Two 18650 cells are connected to a DC-DC step-up module to increase the voltage, which is then supplied to the Arduino, ensuring stable operation and consistent sensor readings, we We use two 18650 batteries connected in series, providing an output voltage of approximately 7V.
 
 
-
-
+##Sense Management
+------
 ### Microcontroller(Arduino nano)
 <div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/Arduino%20nano.jpg" /></div>
 
