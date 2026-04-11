@@ -107,7 +107,7 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 ## Power Management
 ------------
 ### Battery 18650
-<div align="center"><img width="600" height="350" alt="image" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.28.54%20PM.jpeg" /></div>
+<div align="center"><img width="600" height="350" alt="image" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/1e8a86fdf53d0c08367be5d5e39c3833a62cfb00/Bateria.jpg" /></div>
 
 **Specifications:**
 
