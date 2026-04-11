@@ -235,6 +235,11 @@ he vision system was also designed to support the obstacle avoidance logic.
 For this purpose, the X-coordinate at the base of the detected blob was used as the main metric, providing more reliable results than using the object’s area, which occasionally produced inconsistent data.
 
 ------
+PCB
+---
+<div align="center"><img width="100" height="50" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/07f7494ecda7e581402c650815885111234ddfdc/PCB%202026-04-11%20092141.png" /></div>
+-----
+
 ## WRO 2026 Competition Info
 ----
 [WRO 2026 RULES Future Engineers English](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
