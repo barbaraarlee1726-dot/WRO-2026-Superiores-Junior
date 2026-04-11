@@ -235,7 +235,12 @@ he vision system was also designed to support the obstacle avoidance logic.
 For this purpose, the X-coordinate at the base of the detected blob was used as the main metric, providing more reliable results than using the object’s area, which occasionally produced inconsistent data.
 
 ------
+##WRO 2026 Competition Info
+[WRO 2026 RULES Future Engineers English](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
+[WRO 2026 RULES Future Engineers Spanish](https://drive.google.com/file/d/1IJEXWpP0N-TZuE2kj__HQJZUOQY-1Yf7/view?pli=1) 
+[WRO Questions & Answers](https://wro-association.org/competition/questionsanswers/)
 
+--------
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
 * `video` contains the video.md file with the link to a video where driving demonstration exists
