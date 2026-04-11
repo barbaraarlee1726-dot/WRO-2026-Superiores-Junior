@@ -208,7 +208,9 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 
 ##HuskyLens DFRobot
 
-<div align="center"><img width="800" height="600" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.21.06%20PM.jpeg" /></div>
+<div align="center">
+<img width="800" height="600" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.21.06%20PM.jpeg" />
+</div>
 
 |**Parametrer**|**Description**|
 |--------------|---------------|
