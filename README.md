@@ -237,8 +237,9 @@ For this purpose, the X-coordinate at the base of the detected blob was used as 
 ------
 PCB
 ---
-<div align="center"><img width="100" height="50" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/07f7494ecda7e581402c650815885111234ddfdc/PCB%202026-04-11%20092141.png" /></div>
------
+<div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/07f7494ecda7e581402c650815885111234ddfdc/PCB%202026-04-11%20092141.png" /></div>
+
+------
 
 ## WRO 2026 Competition Info
 ----
