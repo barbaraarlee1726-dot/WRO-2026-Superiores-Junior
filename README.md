@@ -96,7 +96,7 @@ Green pillars → Turn left
 
 # Chasis
 ----
-##Power and Sense Management
+## Power and Sense Management
 ---
 The Power and Sensor Management system of the vehicle is engineered to optimize energy distribution and ensure reliable operation of all electronic components. It carefully regulates the power supply to motors and sensors, maintaining stability and efficiency under varying load conditions. This system enables precise control over sensor readings and motor performance, supporting accurate navigation, obstacle detection, and overall vehicle functionality.
 
