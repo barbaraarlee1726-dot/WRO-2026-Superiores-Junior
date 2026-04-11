@@ -168,7 +168,7 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 
 **Specifications**
 
-| Specification              | Description |
+<div | Specification              | Description |
 |-----------------------------|-------------|
 | **Model**                   | EV3 Medium Motor (45503) |
 | **Type**                    | Servo Motor with integrated rotation sensor |
@@ -181,7 +181,7 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 | **Weight**                  | 75 g |
 | **Cable Length**            | 25 cm |
 | **Connector Type**          | EV3 Plug |
-| **Control Features**        | Speed, position, and direction control |
+| **Control Features**        | Speed, position, and direction control | align="center">
 
 It operates at 9V DC and is designed to provide a balance between speed and torque, making it suitable for medium-load
 We connect these motors directly to the EV3, and control them directly with the programming block for these motors, which in our robot consumes the following:
