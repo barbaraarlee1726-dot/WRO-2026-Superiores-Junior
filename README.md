@@ -70,7 +70,6 @@ Role: Mechanic
   - [Power Management](#power-management)
   - [Sense Management](#sense-management)
 - [Obstacle Management](#obstacle-management)
-  - [Vision System](#vision-system)
 - [Calibration](#calibration)
 - [Detection and Avoidance Strategies](#detection-and-avoidance-strategies)
 - [WRO 2026 Competition Info](#wro-2026-competition-info)
