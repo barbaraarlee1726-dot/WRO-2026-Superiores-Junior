@@ -98,7 +98,7 @@ Green pillars → Turn left
 
 The Power and Sensor Management system of the vehicle is engineered to optimize energy distribution and ensure reliable operation of all electronic components. It carefully regulates the power supply to motors and sensors, maintaining stability and efficiency under varying load conditions. This system enables precise control over sensor readings and motor performance, supporting accurate navigation, obstacle detection, and overall vehicle functionality.
 
-##Power Management
+## Power Management
 ------------
 ### Battery 18650
 <div align="center"><img width="600" height="350" alt="image" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/WhatsApp%20Image%202026-04-09%20at%203.28.54%20PM.jpeg" /></div>
@@ -124,7 +124,7 @@ can safely deliver continuous currents of 5–10 A and occasional peak currents 
 In this setup, we use 18650 batteries to power the Arduino Nano for controlling the ultrasonic sensors. Two 18650 cells are connected to a DC-DC step-up module to increase the voltage, which is then supplied to the Arduino, ensuring stable operation and consistent sensor readings, we We use two 18650 batteries connected in series, providing an output voltage of approximately 7V.
 
 
-##Sense Management
+## Sense Management
 ------
 ### Microcontroller(Arduino nano)
 <div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/Arduino%20nano.jpg" /></div>
