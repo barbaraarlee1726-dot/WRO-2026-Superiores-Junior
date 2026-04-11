@@ -129,7 +129,7 @@ In this setup, we use 18650 batteries to power the Arduino Nano for controlling 
 ## Sense Management
 ------
 ### Microcontroller(Arduino nano)
-<div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/73d02b64f1cd8826e8f02ad9a29afeb19396520e/Arduino%20nano.jpg" /></div>
+<div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/0d45ec5e-d666-4185-be01-94dc062a9f37" /></div>
 
 **Specifications:**
 
