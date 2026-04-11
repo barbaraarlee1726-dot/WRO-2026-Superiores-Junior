@@ -243,7 +243,7 @@ For this purpose, the X-coordinate at the base of the detected blob was used as 
 ------
 PCB
 ---
-<div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/IMAGES/blob/07f7494ecda7e581402c650815885111234ddfdc/PCB%202026-04-11%20092141.png" /></div>
+<div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cd8feb88dfa141fe0f5516e4ea4622495802dc7b/PCB%202026-04-11%20092141.png" /></div>
 
 ------
 
