@@ -73,7 +73,7 @@ Role: Mechanic
   - [Vision System](#vision-system)
 - [Calibration](#calibration)
 - [Detection and Avoidance Strategies](#detection-and-avoidance-strategies)
-- [WRO 2025 Competition Info](#wro-2025-competition-info)
+- [WRO 2026 Competition Info](#wro-2026-competition-info)
 
 ## Project Overview
 ---
