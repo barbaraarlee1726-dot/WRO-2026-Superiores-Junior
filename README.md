@@ -174,7 +174,7 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 <img width="500" height="500" alt="EV3 Medium Motor" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" />
 </div>
 
-##Specifications
+## Specifications
 
 <div align="center">
   
