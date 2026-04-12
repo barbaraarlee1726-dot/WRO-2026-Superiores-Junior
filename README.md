@@ -141,6 +141,8 @@ In this setup, we use 18650 batteries to power the Arduino Nano for controlling 
 
 **Specifications:**
 
+<div align="center">
+
 | Specification            | Description |
 |---------------------------|-------------|
 | **Microcontroller**       | ATmega328P |
@@ -157,6 +159,8 @@ In this setup, we use 18650 batteries to power the Arduino Nano for controlling 
 | **USB Connection**        | Mini USB |
 | **Dimensions**            | 45 mm x 18 mm |
 | **Weight**                | ~7 g |
+
+</div>
 
 The Arduino Nano is a compact,microcontroller board based on the ATmega328P. Despite its small size, it offers full functionality with 14 digital I/O pins, 8 analog inputs, and a 16 MHz clock speed.
 It operates at 5V and can be powered through a Mini USB connection, a regulated 5V pin, or an external 7–12V input,
