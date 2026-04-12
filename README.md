@@ -113,7 +113,7 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 ### Battery 18650
 <div align="center"><img width="600" height="350" alt="image" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/1e8a86fdf53d0c08367be5d5e39c3833a62cfb00/Bateria.jpg" /></div>
 
-**Specifications:**
+## Specifications:
 
 <div align="center">
 
@@ -143,7 +143,7 @@ In this setup, we use 18650 batteries to power the Arduino Nano for controlling 
 ### Microcontroller(Arduino nano)
 <div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/0d45ec5e-d666-4185-be01-94dc062a9f37" /></div>
 
-**Specifications:**
+## Specifications:
 
 <div align="center">
 
@@ -174,7 +174,7 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 <img width="500" height="500" alt="EV3 Medium Motor" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" />
 </div>
 
-**Specifications**
+##Specifications
 
 <div align="center">
   
