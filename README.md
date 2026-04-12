@@ -115,6 +115,8 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 
 **Specifications:**
 
+<div align="center">
+
 | Specification           | Description                                    |
 |-------------------------|------------------------------------------------|
 | **Type**                | Li-ion Rechargeable                            |
@@ -128,6 +130,8 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 | **Weight**              | ~45 g                                          |
 | **Cycle Life**          | 300–500 cycles (typical)                       |
 | **Protection Circuit**  | Optional (PCB for overcharge/discharge/cutoff)|
+
+</div>
 
 The 18650 is Li-ion battery is a high-capacity rechargeable cell widely used in electronics and robotics due to its stable voltage output, high energy density, and long cycle life.
 can safely deliver continuous currents of 5–10 A and occasional peak currents up to 20 A,When paired with a protection circuit, it safeguards against overcharging, over-discharging, and short circuits, increasing safety and durability.
@@ -172,7 +176,9 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 
 **Specifications**
 
-<div | Specification              | Description |
+<div align="center">
+  
+| Specification              | Description |
 |-----------------------------|-------------|
 | **Model**                   | EV3 Medium Motor (45503) |
 | **Type**                    | Servo Motor with integrated rotation sensor |
@@ -185,7 +191,9 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 | **Weight**                  | 75 g |
 | **Cable Length**            | 25 cm |
 | **Connector Type**          | EV3 Plug |
-| **Control Features**        | Speed, position, and direction control | align="center">
+| **Control Features**        | Speed, position, and direction control | 
+
+</div>
 
 It operates at 9V DC and is designed to provide a balance between speed and torque, making it suitable for medium-load
 We connect these motors directly to the EV3, and control them directly with the programming block for these motors, which in our robot consumes the following:
@@ -205,6 +213,8 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 
 ### Specifications
 
+<div align="center">
+
 | **Parameter**             | **Description**                              |
 |----------------------------|----------------------------------------------|
 | **Operating Voltage**      | 5V DC                                        |
@@ -219,11 +229,15 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 | **Dimensions**             | 45 mm x 20 mm x 15 mm                        |
 | **Working Temperature**    | -15°C to +70°C                               |
 
+</div>
+
 ## HuskyLens DFRobot
 
 <div align="center">
 <img width="600" height="800" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/87e61e8ba56e91d8834b0b9088b2661a81aa32ee/Camara.jpeg" />
 </div>
+
+<div align="center">
 
 |**Parametrer**|**Description**|
 |--------------|---------------|
@@ -238,6 +252,8 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 | **Echo Output Signal**     |serial UART or I2C interface|
 | **Dimensions**             |52mm x 44.5mm|
 | **Working Temperature**    |36.4°C to 43.2°C|
+
+</div>
 
 --------------------
 ## Obstacle management
