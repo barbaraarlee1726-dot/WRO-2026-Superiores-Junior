@@ -211,7 +211,7 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 </div>
 
 
-### Specifications
+## Specifications:
 
 <div align="center">
 
