@@ -48,6 +48,21 @@ Role: Mechanic
 
 "I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
 
+## 📚 Contents
+- [Project Overview](#project-overview)
+- [Vehicle Photos](#vehicle-photos)
+- [Components and Hardware](#components-and-hardware)
+- [Mobility Management](#mobility-management)
+  - [Chassis](#chassis)
+  - [Steering System](#steering-system)
+  - [Movement and Traction System](#movement-and-traction-system)
+  - [Differential](#about-differential)
+- [Power and Sense Management](#power-and-sense-management)
+  - [Power Management](#power-management)
+  - [Sense Management](#sense-management)
+- [Obstacle Management](#obstacle-management)
+- [WRO 2026 Competition Info](#wro-2026-competition-info)
+  
 ## Project Summary
 
 This document describes the design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad 2026, under the category known as Future Engineers. This competition requires teams to conceive, assemble, and program a vehicle capable of operating without human intervention, adapting to different environmental conditions and established rules.
@@ -84,39 +99,6 @@ Documentation: Keeping a detailed record of the process is a fundamental part of
 |7.4V Buck Converter|Is a DC-DC step-down switching regulator that converts higher input voltages into a stable  output.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6fbf94e7521c737f5a513dd60028c3d06db34a5d/Buck%20converte.jpeg" /></div> |[Buy here](https://ebay.us/m/slLkL8) |
 |Connectors and terminals|Are essential electrical components that join circuits, with connectors housing terminals for secure, often detachable, connections, and terminals.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/76ffcd90fb5edf10b1c67c7eb371b180123fe183/WhatsApp%20Image%202026-04-11%20at%2011.59.09%20AM.jpeg" /></div> |[Buy here](https://us.amazon.com/Connectors-Insulated-Terminals-Electrical-Repairs/dp/B0FT36W76H) |
 
-## 📚 Contents
-- [Project Overview](#project-overview)
-- [Vehicle Photos](#vehicle-photos)
-- [Components and Hardware](#components-and-hardware)
-- [Mobility Management](#mobility-management)
-  - [Chassis](#chassis)
-  - [Steering System](#steering-system)
-  - [Movement and Traction System](#movement-and-traction-system)
-  - [Differential](#about-differential)
-- [Power and Sense Management](#power-and-sense-management)
-  - [Power Management](#power-management)
-  - [Sense Management](#sense-management)
-- [Obstacle Management](#obstacle-management)
-- [WRO 2026 Competition Info](#wro-2026-competition-info)
-
-## Project Overview
----
-### Abstract
-Our team present the development and implementation of an autonomous vehicle designed for the World Robot Olympiad 2026– Future Engineers category.
-The competition challenges participants to design, construct, and program a self-driving car capable of completing specific tasks under variable environmental and rule-based conditions.
-The competition consist in two fases:
-Open Challenge:
-
--The autonomous vehicle must complete three laps in a predefined track with a limited time.
-
--The starting position and driving direction (clockwise or counterclockwise) are randomly assigned before each run.
-Obstacle Challenge:
-
--The autonomous vehicle must complete the three laps but now there are pilars with two diferents colors that acts as traffic signals.
-
-Red pillars → Turn right
-
-Green pillars → Turn left
 
 ---------------
 ## Mobility Management
