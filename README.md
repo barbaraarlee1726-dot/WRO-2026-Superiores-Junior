@@ -103,7 +103,7 @@ Documentation: Keeping a detailed record of the process is a fundamental part of
 ---------------
 ## Mobility Management
 
-# Chasis
+# Chassis
 ----
 ## Power and Sense Management
 ---
