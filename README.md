@@ -50,8 +50,6 @@ Role: Mechanic
 
 ## Project Summary
 
-Summary:
-
 This document describes the design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad 2026, under the category known as Future Engineers. This competition requires teams to conceive, assemble, and program a vehicle capable of operating without human intervention, adapting to different environmental conditions and established rules.
 The Future Engineers category is divided into two challenges:
 
