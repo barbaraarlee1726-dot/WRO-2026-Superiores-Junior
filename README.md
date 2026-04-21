@@ -48,6 +48,26 @@ Role: Mechanic
 
 "I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
 
+## Project Summary
+
+Summary
+This document describes the design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad 2026, under the category known as Future Engineers. This competition requires teams to conceive, assemble, and program a vehicle capable of operating without human intervention, adapting to different environmental conditions and established rules.
+The Future Engineers category is divided into two challenges:
+
+Open Challenge
+
+The vehicle must autonomously complete three full laps on a fixed-layout track.
+Both the starting position and the driving direction (clockwise or counterclockwise) are randomly determined before each attempt.
+
+Obstacle Challenge
+
+It follows the same dynamics as the Open Challenge, with the difference that the vehicle must identify and respond to colored pillars that act as traffic signals:
+
+Red pillars → Turn right
+Green pillars → Turn left
+
+Documentation: Keeping a detailed record of the process is a fundamental part of the challenge, as it demonstrates the team's technical reasoning. Teams are required to maintain a publicly accessible repository containing the source code, CAD models, work logs, and other relevant technical documentation.
+
 ## Components and Hardware
 ====
 
