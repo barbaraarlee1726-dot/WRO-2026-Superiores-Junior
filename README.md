@@ -62,6 +62,7 @@ Role: Mechanic
 - [Power and Sense Management](#power-and-sense-management)
   - [Power Management](#power-management)
   - [Sense Management](#sense-management)
+-[Documentation](#Documentation)
 - [Obstacle Management](#obstacle-management)
 - [WRO 2026 Competition Info](#wro-2026-competition-info)
   
@@ -273,6 +274,27 @@ PCB
 <div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cd8feb88dfa141fe0f5516e4ea4622495802dc7b/PCB%202026-04-11%20092141.png" /></div>
 
 ------
+#Documentation
+-
+
+This is the process and documentation section during the WRO|Future Engineers event on building our autonomous robot
+
+
+
+  Chasis prototype
+ -
+  <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/55f0c9b437143ceda7336896be51c1d4f446503f/ChatGPT%20Image%2022%20abr%202026%2C%2017_21_18.png" /></div>
+  This was our first design of our lego chasis.
+
+  #Robot prototype
+  -
+  This is our first design robot, whith a little part of electronic components (ultrasonic sensor)
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/05a32dd7282cb0a4804b5e38e599b0f3867d772b/ChatGPT%20Image%2022%20abr%202026%2C%2017_35_21.png" /></div>
+
+Final Design
+-
+This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers.
+
 
 ## WRO 2026 Competition Info
 ----
