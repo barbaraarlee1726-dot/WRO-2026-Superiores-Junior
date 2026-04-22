@@ -59,10 +59,10 @@ Role: Mechanic
   - [Steering System](#steering-system)
   - [Movement and Traction System](#movement-and-traction-system)
   - [Differential](#about-differential)
+- [Documentation](#Documentation)
 - [Power and Sense Management](#power-and-sense-management)
   - [Power Management](#power-management)
   - [Sense Management](#sense-management)
--[Documentation](#Documentation)
 - [Obstacle Management](#obstacle-management)
 - [WRO 2026 Competition Info](#wro-2026-competition-info)
   
