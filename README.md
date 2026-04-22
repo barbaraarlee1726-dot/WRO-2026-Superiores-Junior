@@ -31,7 +31,7 @@ Arath Alejandro Reyna Granados
 
 Age:15
 
-<div align="center"><img width="600" height="500" alt="other/Arath.jpeg" /></div>
+<div align="center"><img width="600" height="500" alt="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/03517bacc165e8e7f6ad2ab5a144907f4ea8589d/other/Arath.jpeg" /></div>
 
 Role: Programmer
 
