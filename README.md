@@ -31,7 +31,7 @@ Arath Alejandro Reyna Granados
 
 Age:15
 
-<div align="center"><img width="600" height="500" alt="[Arath](other/Arath.jpeg)" /></div>
+<div align="center"><img width="600" height="500" alt="other/Arath.jpeg" /></div>
 
 Role: Programmer
 
