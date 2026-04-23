@@ -83,7 +83,8 @@ It follows the same dynamics as the Open Challenge, with the difference that the
 Red pillars → Turn right
 Green pillars → Turn left
 
-Documentation: Keeping a detailed record of the process is a fundamental part of the challenge, as it demonstrates the team's technical reasoning. Teams are required to maintain a publicly accessible repository containing the source code, CAD models, work logs, and other relevant technical documentation.
+
+<div align="center"><img width="400" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/c52217912910eeeb9e481bed0007484d9a322ab2/WRO%20obstacles.png" /></div>
 
 ## Components and Hardware
 ====
