@@ -86,6 +86,24 @@ Green pillars → Turn left
 
 <div align="center"><img width="400" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/c52217912910eeeb9e481bed0007484d9a322ab2/WRO%20obstacles.png" /></div>
 
+Vehicle's photos
+====
+
+<div align="center">
+
+| Front | Back |
+|:--:|:--:|
+|    |    |
+
+| Bottom | Top |
+|:--:|:--:|
+|    |    |
+
+| Left | Right |
+|:--:|:--:|
+|    |     |
+
+
 ## Components and Hardware
 ====
 
