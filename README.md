@@ -228,7 +228,7 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 ## Ultrasonic HC-SR04
 
 <div align="center">
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/da485b0f-8730-43e4-9475-f638a68670e4" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/da485b0f-8730-43e4-9475-f638a68670e4" />
 </div>
 
 
