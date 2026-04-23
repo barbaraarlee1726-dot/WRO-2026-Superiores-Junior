@@ -294,11 +294,9 @@ PCB
 
 ------
 # Documentation
--
+
 
 This is the process and documentation section during the WRO|Future Engineers event on building our autonomous robot
-
-
 
   Chasis prototype
  -
