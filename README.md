@@ -320,5 +320,3 @@ This was our final design for the WRO Future Engineers, this robot was used on W
 [WRO 2026 RULES Future Engineers English](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
 
 [WRO 2026 RULES Future Engineers Spanish](https://drive.google.com/file/d/1IJEXWpP0N-TZuE2kj__HQJZUOQY-1Yf7/view?pli=1) 
-
-[WRO Questions & Answers](https://wro-association.org/competition/questionsanswers/)
