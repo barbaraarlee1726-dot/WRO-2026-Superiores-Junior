@@ -312,7 +312,7 @@ This is the process and documentation section during the WRO|Future Engineers ev
   Robot prototype
   -
   This is our first design robot, whith a little part of electronic components (ultrasonic sensor)
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/bd4cadf06a61e07020c7968a2cfd60552cc2694a/other/Chasis%20prototype%202.png" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/1d6766b931f55d4f645bd0e5e94f5d4e9a57dba0/Chasis%20prototype%202.png" /></div>
 
 Final Design
 -
