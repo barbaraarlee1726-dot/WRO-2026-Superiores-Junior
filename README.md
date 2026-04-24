@@ -64,7 +64,6 @@ Role: Mechanic
   - [Power Management](#power-management)
   - [Sense Management](#sense-management)
 - [Obstacle Management](#obstacle-management)
-- [Binnacle](#binacle)
 - [WRO 2026 Competition Info](#wro-2026-competition-info)
   
 ## Project overview
@@ -312,18 +311,6 @@ Final Design
 -
 This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers.
 
-# Binnacle
-
-This is a complete description of what we did throughout the entire process for WRO.
-
-First day:
-We met as a team and started working on the robot’s chassis. We had a few problems during the construction, so we were only able to make a small amount of progress. At that point, we were not completely sure about what we were going to build or how we would approach the project.
-
-First week:
-Once most of our chassis was finished, we decided to disassemble it in order to fix several issues we had noticed. Some pieces were broken, while others were not placed correctly, so we took the time to improve the overall structure and make it more stable.
-
-First month:
-We began adding electronic components such as an ultrasonic sensor, a HuskyLens DF Robot camera, and a medium EV3 motor. However, one of the main problems we faced was that some important parts had not arrived yet, which limited our ability to continue making progress.
 
 -------
 ## WRO 2026 Competition Info
