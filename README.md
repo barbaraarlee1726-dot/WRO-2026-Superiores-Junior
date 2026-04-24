@@ -24,6 +24,8 @@ Barbara Arlee Flores Marroquin
 
 Age:15
 
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cee9a9ae2272390b0d737a3d35a980478cd9c03d/Foto%20integrante%20Barbara.jpg" /></div>
+
 Role:Captain and electronic 
 
 "I got started in robotics in my sophomore year of high school, having been selected for my strong academic performance and adaptability, as well as my interest in challenges and complex designs, and I received a diploma for my achievements.I have honed my skills by taking additional robotics courses at this institution, where, in addition to learning, I received a certificate of completion."
