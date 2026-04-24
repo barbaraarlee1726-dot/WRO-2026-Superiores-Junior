@@ -199,7 +199,7 @@ It operates at 5V and can be powered through a Mini USB connection, a regulated 
 
 ### Medium motor EV3
 <div align="center">
-<img width="500" height="300" alt="EV3 Medium Motor" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" />
+<img width="500" height="400" alt="EV3 Medium Motor" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" />
 </div>
 
 ## Specifications
@@ -235,7 +235,7 @@ In terms of power consumption, the motor typically draws around 250–300 mA und
 ## Ultrasonic HC-SR04
 
 <div align="center">
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/da485b0f-8730-43e4-9475-f638a68670e4" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/da485b0f-8730-43e4-9475-f638a68670e4" />
 </div>
 
 
