@@ -289,7 +289,7 @@ We use this module to regulate the voltage supplied to the two Arduino PCBs, ste
 
 </div>
 
-## HuskyLens DFRobot
+# HuskyLens DFRobot
 
 <div align="center">
 <img width="600" height="800" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/87e61e8ba56e91d8834b0b9088b2661a81aa32ee/Camara.jpeg" />
