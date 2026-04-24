@@ -306,13 +306,13 @@ This is the process and documentation section during the WRO|Future Engineers ev
 
   Chasis prototype
  -
-  <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/55f0c9b437143ceda7336896be51c1d4f446503f/ChatGPT%20Image%2022%20abr%202026%2C%2017_21_18.png" /></div>
+  <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/bd4cadf06a61e07020c7968a2cfd60552cc2694a/other/Chasis%20prototype%201.png" /></div>
   This was our first design of our lego chasis.
 
   Robot prototype
   -
   This is our first design robot, whith a little part of electronic components (ultrasonic sensor)
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/05a32dd7282cb0a4804b5e38e599b0f3867d772b/ChatGPT%20Image%2022%20abr%202026%2C%2017_35_21.png" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/bd4cadf06a61e07020c7968a2cfd60552cc2694a/other/Chasis%20prototype%202.png" /></div>
 
 Final Design
 -
