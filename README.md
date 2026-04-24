@@ -150,10 +150,14 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 
 </div>
 
-The 18650 is Li-ion battery is a high-capacity rechargeable cell widely used in electronics and robotics due to its stable voltage output, high energy density, and long cycle life.
-can safely deliver continuous currents of 5–10 A and occasional peak currents up to 20 A,When paired with a protection circuit, it safeguards against overcharging, over-discharging, and short circuits, increasing safety and durability.
-In this setup, we use 18650 batteries to power the Arduino Nano for controlling the ultrasonic sensors. Two 18650 cells are connected to a DC-DC step-up module to increase the voltage, which is then supplied to the Arduino, ensuring stable operation and consistent sensor readings, we We use two 18650 batteries connected in series, providing an output voltage of approximately 7V.
+The 18650 Li-ion Rechargeable Battery is a cylindrical metallic-encased cell 
+with a nominal voltage of 3.7V and a capacity of 2200 mAh, making it suitable 
+for high-consumption electronic applications and robotics projects.
 
+In this setup, we use two 18650 batteries connected in series to provide a 
+combined output voltage of approximately 7.4V. This voltage is then regulated 
+through a DC-DC buck converter to supply stable power to the Arduino Nano and 
+the ultrasonic sensors, ensuring consistent operation throughout the run.
 
 ## Sense Management
 ------
