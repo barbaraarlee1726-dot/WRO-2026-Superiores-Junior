@@ -232,6 +232,36 @@ EV3 Brick controls all motors. Powered by 10V 2050 mAh battery.
   
 In terms of power consumption, the motor typically draws around 250–300 mA under normal load, but this can increase up to 1.2 A when operating under heavy load or stall conditions. Its power output reaches approximately 2.5 W, depending on the applied voltage and load.
 
+## Mini 560 Regulador Step down 
+
+<div align="center">
+<img width="500" height="500" alt="Mini 560 module" src="https://github.com/user-attachments/assets/7566dcf4-fe6a-4349-af80-0a458462fb7a" />
+</div>
+
+**Specifications**
+
+| Specification | Description |
+|----------------|-------------|
+| **Model** | Mini 560 DC-DC Step-Down Converter |
+| **Input Voltage (Vin)** | 4.5V – 28V DC |
+| **Output Voltage (Vout)** | Adjustable from 0.8V – 20V DC |
+| **Default Output (pre-set)** | 5V (depending on module version) |
+| **Output Current (Iout)** | Up to 3A (recommended continuous current: 2A for stability) |
+| **Efficiency** | Up to 95% (depending on voltage and load) |
+| **Switching Frequency** | 1.5 MHz |
+| **Voltage Ripple** | < 30 mV (typical) |
+| **Load Regulation** | ±0.5% |
+| **Conversion Type** | Step-Down (Buck) Converter |
+| **Control IC** | MP2307 or similar synchronous rectifier chip |
+| **Operating Temperature** | -40°C to +85°C |
+| **Dimensions** | 22 mm x 17 mm x 4 mm |
+| **Protection Features** | Short-circuit, over-temperature, and over-current protection |
+| **Typical Applications** | Power supply for microcontrollers, sensors, cameras, LED strips, and communication modules |
+
+The Mini 560 Step-Down Regulator is used to efficiently convert higher input voltages to lower, stable output voltages suitable for powering microcontrollers, sensors, and other electronic modules in the robot. Its compact design and high efficiency make it ideal for embedded and portable applications.
+
+We use this module to regulate the voltage supplied to the two Arduino PCBs, stepping it down from 7V to 5V to ensure stable operation and optimal performance.
+
 ## Ultrasonic HC-SR04
 
 <div align="center">
