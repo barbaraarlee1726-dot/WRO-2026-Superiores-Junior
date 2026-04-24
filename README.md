@@ -24,7 +24,7 @@ Barbara Arlee Flores Marroquin
 
 Age:15
 
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cee9a9ae2272390b0d737a3d35a980478cd9c03d/Foto%20integrante%20Barbara.jpg" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/d7c3253b324f993227be77801cb9ee21452fcf70/Photo%20Barbara.jpg" /></div>
 
 Role:Captain and electronic 
 
