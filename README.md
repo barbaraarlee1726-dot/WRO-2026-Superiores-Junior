@@ -132,25 +132,21 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 ## Power Management
 ------------
 ### Battery 18650
-<div align="center"><img width="600" height="350" alt="image" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/1e8a86fdf53d0c08367be5d5e39c3833a62cfb00/Bateria.jpg" /></div>
+<div align="center"><img width="600" height="350" alt="image" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6ece9ad176f7af3fbcfbfabdd9c675156f8046a3/bateria-recargable-li-ion-2200-mah-tipo-18650.jpg" /></div>
 
 ## Specifications:
 
 <div align="center">
 
-| Specification           | Description                                    |
-|-------------------------|------------------------------------------------|
-| **Type**                | Li-ion Rechargeable                            |
-| **Model**               | 18650                                          |
-| **Nominal Voltage**     | 3.7 V                                          |
-| **Full Charge Voltage** | 4.2 V                                          |
-| **Capacity**            | 2600–3500 mAh (typical)                        |
-| **Discharge Current**   | 5–10 A (continuous), up to 20 A (peak)         |
-| **Charging Current**    | 0.5–1 C                                        |
-| **Dimensions**          | 18 mm diameter × 65 mm length                  |
-| **Weight**              | ~45 g                                          |
-| **Cycle Life**          | 300–500 cycles (typical)                       |
-| **Protection Circuit**  | Optional (PCB for overcharge/discharge/cutoff)|
+| Specification           | Description                   |
+|-------------------------|-------------------------------|
+| **Type**                | Li-ion Rechargeable           |
+| **Model**               | 18650                         |
+| **Nominal Voltage**     | 3.7 V                         |
+| **Capacity**            | 2200 mAh                      |
+| **Enclosure**           | Metallic (for safety)         |
+| **Active Element**      | Lithium-ion                   |
+| **Dimensions**          | 18 mm diameter × 65 mm length |
 
 </div>
 
