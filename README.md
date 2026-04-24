@@ -91,7 +91,7 @@ Red pillars → Turn right
 Green pillars → Turn left
 
 
-<div align="center"><img width="400" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/AlexisNinja2026/Borrador-/blob/c52217912910eeeb9e481bed0007484d9a322ab2/WRO%20obstacles.png" /></div>
+<div align="center"><img width="400" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/d191ee2e67e5695f6992e1023287bd43c18ee621/WRO%20obstacles.png" /></div>
 
 Vehicle's photos
 ====
