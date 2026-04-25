@@ -96,8 +96,8 @@ It follows the same dynamics as the Open Challenge, with the difference that the
 
 <div align="center"><img width="400" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/d191ee2e67e5695f6992e1023287bd43c18ee621/WRO%20obstacles.png" /></div>
 
-Vehicle's photos
-====
+# Vehicle Photos
+
 
 <div align="center">
 
