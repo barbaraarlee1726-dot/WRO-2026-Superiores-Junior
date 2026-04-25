@@ -127,6 +127,7 @@ Vehicle's photos
 |Mini560 Buck Step-Down Voltage Regulator 5–20V to 3.3V 5A|Is a compact DC-DC buck converter designed to step down an input voltage from 5–20V to a stable 3.3V output, supporting up to 5A of current, commonly used for powering microcontrollers and low-voltage electronic circuits.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/93bdb984c063d3ec5457223a3d6dfa9a36d276a4/Mini560%20Regulador%20Step%20Down%20Buck%205-20v%20A%203.3v%205a.webp" /></div> |[Buy here](https://www.steren.com.mx/regulador-de-voltaje-positivo-5v-1a.html?srsltid=AfmBOop5WdfK0k6EYuWDN6c5NZKdqrNnHo_tHIPNIs3u9HatMaUCIQl2CDg)|
 |5V/1A positive voltage regulator|Is a linear positive voltage regulator designed to provide a stable 5V output with up to 1A of current, commonly used in power supply circuits to regulate and maintain a constant voltage for electronic components.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/b0b09cf5b315e9625422a291d922a3d7fb5e0e03/Regulator.jpg" /></div> |[Buy here](https://www.steren.com.mx/regulador-de-voltaje-positivo-5v-1a.html?srsltid=AfmBOop5WdfK0k6EYuWDN6c5NZKdqrNnHo_tHIPNIs3u9HatMaUCIQl2CDg)
 
+<div align="left">
 ---------------
 ## Mobility Management
 
@@ -138,6 +139,7 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 
 ## Power Management
 ------------
+
 ### Battery 18650
 <div align="center"><img width="600" height="350" alt="image" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6ece9ad176f7af3fbcfbfabdd9c675156f8046a3/bateria-recargable-li-ion-2200-mah-tipo-18650.jpg" /></div>
 
