@@ -1,6 +1,8 @@
 WRO-2026-FUTURE ENGINEERS
 ---------------------------
-This repository contains the technical documentation, source code, and design schematics for the autonomous vehicle developed by the Los Grises Junior team for the WRO 2026 competition. Our project focuses on the convergence of computer vision, efficient power management, and precision mechanical engineering.
+This document describes the complete design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad (WRO) 2026 under the Future Engineers category. Our robot integrates computer vision, gyroscopic navigation, ultrasonic sensing, and custom PCB design to achieve reliable autonomous operation.
+The WRO Future Engineers category challenges teams to design a vehicle capable of operating without any human intervention, adapting dynamically to track conditions and obstacles. The competition is divided into two main challenges:
+
 Category: Future Engineers
 
 Team Name: Los Grises Junior
@@ -19,12 +21,12 @@ TEAM MEMBERS
 Leadership & Coaching
 Coach: Eduardo Alvarado González (40 years old)
 
-Role: Strategic Mentor and Founder.
 <div align="center">
 <img width="400" height="300" alt="Eduardo Gonzalez" src="https://github.com/user-attachments/assets/20ccfb81-0bc1-4147-aa43-fefe649a55c0" />
 </div>
 
-Professional Profile: An engineer and professor with a career spanning back to 2014, when he founded “Los Grises Superiores.” His vision has inspired multiple generations of students to excel on national and international stages, fostering a culture of technical excellence and resilience.
+Role: Strategic Mentor and Founder. 
+Eduardo is an engineer and professor who founded "Los Grises Superiores" in 2014. His vision has guided multiple generations of students to succeed in national and international robotics competitions, building a culture of technical excellence, teamwork, and resilience. He provides strategic direction and ensures all engineering decisions align with competition requirements.
 
 ---------------------------
 
@@ -39,6 +41,8 @@ Age:15
 
 "I got started in robotics in my sophomore year of high school, having been selected for my strong academic performance and adaptability, as well as my interest in challenges and complex designs, and I received a diploma for my achievements.I have honed my skills by taking additional robotics courses at this institution, where, in addition to learning, I received a certificate of completion."
 
+Bárbara joined robotics in her sophomore year of high school, having been selected for her strong academic performance and interest in complex engineering challenges. She earned a diploma for her achievements and has since completed additional robotics certifications. In this project, she is responsible for electronic design, PCB development, and system integration.
+
 ---------------------------
 
 Arath Alejandro Reyna Granados
@@ -51,6 +55,8 @@ Role:Lead Programmer.
 
 "I started in robotics at age 13 thanks to my mom, who started a robotics course at my school. There, I was told about a summer course offered by the Normal Superior of Nuevo León, Mexico, where I learned many things. After the course ended, a few months passed, and we were invited back. I was selected to compete in WRO."
 
+Arath began his robotics journey at age 13 after participating in a course at the Normal Superior de Nuevo León, Mexico. He was subsequently selected to compete in WRO due to his aptitude and dedication. He is responsible for all firmware development, including the navigation algorithms, sensor fusion logic, and obstacle avoidance routines implemented on the Arduino Nano.
+
 ---------------------------
 
 Alexis Fernando Martínez Tapia
@@ -62,6 +68,8 @@ Age:14
 Role: Mechanic
 
 "I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
+
+Alexis started robotics at age 10 and completed advanced courses at the Normal Superior de Nuevo León in late 2024. He is responsible for the chassis design, steering mechanism, drivetrain assembly, and all structural modifications made throughout the development process. This competition marks his first WRO tournament with Los Grises Junior.
 
 ---------------------------
 
@@ -84,16 +92,19 @@ Role: Mechanic
 This document describes the design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad 2026, under the category known as Future Engineers. This competition requires teams to conceive, assemble, and program a vehicle capable of operating without human intervention, adapting to different environmental conditions and established rules.
 The Future Engineers category is divided into two challenges:
 
-Open Challenge
+Open Challenge:
 
-The vehicle must complete three laps on a fixed-layout track. The complexity increases due to random factors; the starting position and direction of travel (clockwise or counterclockwise) are determined on the spot, requiring a navigation system that does not rely on pre-programmed routes but rather on active lane detection.
-Obstacle Challenge
+The vehicle must complete exactly three laps on a fixed-layout track. The direction of travel (clockwise or counterclockwise) and the starting position are determined randomly at the start of each run. This requires a navigation system that relies entirely on real-time sensor data rather than pre-programmed routes. Our system uses two HC-SR04 ultrasonic sensors to measure wall distances and an MPU6050 gyroscope to count rotations and determine lap completion.
 
-It follows the same dynamics as the Open Challenge, with the difference that the vehicle must identify and respond to colored pillars that act as traffic signals:
+Obstacle Challenge:
 
--Red pillars → Turn right
+The Obstacle Challenge follows the same lap dynamics as the Open Challenge but adds colored pillars that act as traffic signals. The robot must detect and respond to each pillar in real time:
 
--Green pillars → Turn left
+•	Red pillar → the vehicle must pass to the right of the obstacle
+
+•	Green pillar → the vehicle must pass to the left of the obstacle
+
+The HuskyLens AI camera handles color recognition and calculates the X-position of each detected object, allowing the servo steering system to compute the correct avoidance trajectory dynamically.
 
 
 <div align="center"><img width="400" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/d191ee2e67e5695f6992e1023287bd43c18ee621/WRO%20obstacles.png" /></div>
@@ -122,13 +133,13 @@ It follows the same dynamics as the Open Challenge, with the difference that the
 |---------|-------------|-------|--------------|
 |Arduino Nano  |ATmega328-based microcontroller for control tasks| <div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/0d45ec5e-d666-4185-be01-94dc062a9f37" /></div> |[Buy here](https://www.google.com/aclk?sa=L&ai=DChsSEwiB6uqh3eOTAxWqswMAHZ9CG58YACICCAEQARoCb2E&co=1&ase=2&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKe3TtkoMagErxFPnI8yuVRjH7gES3rhXEC8jofcvzb60-d1IdbEuBYaAiyPEALw_wcB&cid=CAASugHkaNjVthr8YFbnDwsn-roKy5t_YsC0Mkf3bF607XqWIcotDRZXOEbzPQZ5nr1VZkA1VNJ6WE--_9-trzQm35iiBOJzKicUHLUJk9ugnfKfBixW5bOISn9DYFt-pzZbHnLkNRL0bNpLc21i4OJkTdH7hXmE3RM3vbdCYAMSlBqU6U1PcKNI4YkK5Me2xgzHLz56A91I4ZKQZ3mSOYcxTaT57QZ6zCuujbiTu72hyncfjgrtHyeJ84o4TQA&cce=2&category=acrcp_v1_33&sig=AOD64_2fR0450xwF3ggpGZB719NCMgWYtQ&ctype=5&q=&nis=4&ved=2ahUKEwiL6-Ch3eOTAxUomSYFHeyqHckQ9aACKAB6BAgMEBA&adurl=) |
 |HuskyLens DFRobot|Is an AI-powered machine vision sensor designed to detect faces, objects, lines, colors, and tags without complex algorithms.| <div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6169b3e8b34ef922ef62c5e202158eb07e2cbc6e/Camara.jpeg" /></div> |[Buy here](https://a.co/d/0gZv6Qfk)|
-|MPU6050| Is a 6-axis Motion Tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/495ec39225eaf2b197f723f051676fdd03c3bafd/WhatsApp%20Image%202026-04-11%20at%2012.01.33%20PM.jpeg" /></div> |[Buy here](https://a.co/d/0gZv6Qfk)|
-|TB6612FNG|Is a compact, high-efficiency dual H-bridge motor driver capable of independently controlling two DC motors, at 1.2A continuous current.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/09027d427a44b83a59869e85d09dbbb3274b0b93/TB6612FNG.jpeg" /></div> |[Buy here](https://a.co/d/0eNh6qiz)|
-|EV3 Motor|Are intelligent, tacho-feedback servos with built-in rotation sensors (1-degree resolution) for precise, Auto-ID control..|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" /></div> |[Buy here](https://ebay.us/m/QtXLZA)|
-|Ultrasonic Sensor|Is an ultrasonic distance sensor that uses sonar to determine the distance to an object.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/09027d427a44b83a59869e85d09dbbb3274b0b93/WhatsApp%20Image%202026-04-09%20at%203.25.49%20PM.jpeg" /></div> |[Buy here](https://www.steren.com.mx/sensor-ultrasonico.html)|
-|Servomotor|Is a rotary or linear actuator designed for high-precision control of position, speed, and acceleration, typically operating within a closed-loop system.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/ffb3b1e2eb393abe945b06120520b39b8c333b27/servo.jpg" /></div> |[Buy here](https://www.steren.com.mx/micro-servomotor-con-torque-de-1-8-kgf-cm.html)|
+|MPU6050| Is a 6-axis Motion Tracking device combining a 3-axis gyroscope and a 3-axis accelerometer on a single chip.Measures rotation angle (yaw) to count laps and trigger the stop sequence|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/495ec39225eaf2b197f723f051676fdd03c3bafd/WhatsApp%20Image%202026-04-11%20at%2012.01.33%20PM.jpeg" /></div> |[Buy here](https://a.co/d/0gZv6Qfk)|
+|TB6612FNG|Is a compact, high-efficiency dual H-bridge motor driver capable of independently controlling two DC motors, at 1.2A continuous current.Dual H-bridge motor driver, 1.2A continuous, 3A peak, 2.7–5.5V logic|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/09027d427a44b83a59869e85d09dbbb3274b0b93/TB6612FNG.jpeg" /></div> |[Buy here](https://a.co/d/0eNh6qiz)|
+|EV3 Motor|Are intelligent, tacho-feedback servos with built-in rotation sensors (1-degree resolution) for precise, Auto-ID control.9V DC, 260 rpm no-load, 8 N·cm stall torque, 1° tacho resolution|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/c0c91a6f-02e9-4b4f-8271-1a25b965384c" /></div> |[Buy here](https://ebay.us/m/QtXLZA)|
+|Ultrasonic Sensor|Is an ultrasonic distance sensor that uses sonar to determine the distance to an object.Measures left/right wall distances for lane-centering control|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/09027d427a44b83a59869e85d09dbbb3274b0b93/WhatsApp%20Image%202026-04-09%20at%203.25.49%20PM.jpeg" /></div> |[Buy here](https://www.steren.com.mx/sensor-ultrasonico.html)|
+|Servomotor|Is a rotary or linear actuator designed for high-precision control of position, speed, and acceleration, typically operating within a closed-loop system.Controls front wheel steering angle based on wall error or obstacle position|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/ffb3b1e2eb393abe945b06120520b39b8c333b27/servo.jpg" /></div> |[Buy here](https://www.steren.com.mx/micro-servomotor-con-torque-de-1-8-kgf-cm.html)|
 |18650 Li-ion Rechargeable Battery 2200 mAh|Is a cylindrical rechargeable lithium-ion cell with a capacity of 2200 mAh, commonly used in portable electronics and power devices, measuring approximately 18 mm in diameter and 65 mm in length.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6ece9ad176f7af3fbcfbfabdd9c675156f8046a3/bateria-recargable-li-ion-2200-mah-tipo-18650.jpg" /></div> |[Buy here](https://www.steren.com.mx/bateria-recargable-li-ion-2200-mah-tipo-18650.html?srsltid=AfmBOoqVXbVVKKaVMNmSyXv6rzEmUdTJ3o1khVPWLHKSNEBCjl5N5MGprtI)|
-|Mini560 Buck Step-Down Voltage Regulator 5–20V to 3.3V 5A|Is a compact DC-DC buck converter designed to step down an input voltage from 5–20V to a stable 3.3V output, supporting up to 5A of current, commonly used for powering microcontrollers and low-voltage electronic circuits.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/93bdb984c063d3ec5457223a3d6dfa9a36d276a4/Mini560%20Regulador%20Step%20Down%20Buck%205-20v%20A%203.3v%205a.webp" /></div> |[Buy here](https://www.steren.com.mx/regulador-de-voltaje-positivo-5v-1a.html?srsltid=AfmBOop5WdfK0k6EYuWDN6c5NZKdqrNnHo_tHIPNIs3u9HatMaUCIQl2CDg)|
+|Mini560 Buck Step-Down Voltage Regulator 5–20V to 3.3V 5A|Is a compact DC-DC buck converter designed to step down an input voltage from 5–20V to a stable 3.3V output, supporting up to 5A of current, commonly used for powering microcontrollers and low-voltage electronic circuits.Steps down 7.4V to 5V for Arduino and sensors|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/93bdb984c063d3ec5457223a3d6dfa9a36d276a4/Mini560%20Regulador%20Step%20Down%20Buck%205-20v%20A%203.3v%205a.webp" /></div> |[Buy here](https://www.steren.com.mx/regulador-de-voltaje-positivo-5v-1a.html?srsltid=AfmBOop5WdfK0k6EYuWDN6c5NZKdqrNnHo_tHIPNIs3u9HatMaUCIQl2CDg)|
 |5V/1A positive voltage regulator|Is a linear positive voltage regulator designed to provide a stable 5V output with up to 1A of current, commonly used in power supply circuits to regulate and maintain a constant voltage for electronic components.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/b0b09cf5b315e9625422a291d922a3d7fb5e0e03/Regulator.jpg" /></div> |[Buy here](https://www.steren.com.mx/regulador-de-voltaje-positivo-5v-1a.html?srsltid=AfmBOop5WdfK0k6EYuWDN6c5NZKdqrNnHo_tHIPNIs3u9HatMaUCIQl2CDg)
 |PCB|A PCB (Printed Circuit Board) is a flat board used to mechanically support and electrically connect electronic components through conductive pathways etched from copper sheets. It replaces loose wiring by providing organized connections between elements such as microcontrollers, sensors, regulators, and other electronic parts. PCBs improve the reliability, compactness, and stability of electronic systems, making them essential in robotics for integrating and managing circuits efficiently.| <div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cd8feb88dfa141fe0f5516e4ea4622495802dc7b/PCB%202026-04-11%20092141.png" /></div> |[Buy here](https://jlcpcb.com/)
 
@@ -140,10 +151,11 @@ It follows the same dynamics as the Open Challenge, with the difference that the
 ----
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/2f883c1757a8e5ca645581bd76abbd09ea64a7fa/Captura%20de%20pantalla%202026-04-25%20103424.png" /></div>
 
+The chassis was designed and iterated through multiple prototypes, starting with a LEGO-based frame and evolving into a compact, rigid structure optimized for the competition track dimensions. The final design prioritizes a low center of gravity and tight turning radius to handle the track corners reliably.
+
 ### Steering System
-The EV3’s middle motor converts rotational motion into steering movement through a gear train mechanism. The wheels are linked by a connecting rod, allowing them to move freely. With the assistance of the front differential, this setup transmits motion through the drivetrain to the rear motors, enabling smooth and controlled movement.
-
-
+The steering system uses a micro servo motor connected to pin D8 of the Arduino Nano. The servo operates within a constrained range of 65° to 115°, where 90° represents straight ahead. The steering angle is computed as a proportional correction based on the difference between left and right wall distances, or based on the X-position of a detected colored pillar.
+The EV3 Medium Motor handles propulsion through a gear train, with the rear wheels driven by the motor output. A connecting rod links the front wheels for coordinated turning. The TB6612FNG motor driver controls motor direction via digital pins D9 and D10, with PWM speed control on pin D11.
 
 ## Power and Sense Management
 ---
@@ -151,6 +163,7 @@ The Power and Sensor Management system of the vehicle is engineered to optimize 
 
 ## Power Management
 ------------
+The power system uses two 18650 Li-ion cells connected in series, providing a nominal 7.4V at 2200mAh capacity. This voltage is regulated down to 5V via a Mini560 Buck Converter (Step-Down DC-DC), which powers the Arduino Nano, the ultrasonic sensors, and the HuskyLens camera. The EV3 motor is driven directly by the TB6612FNG at the battery voltage level, with the STBY pin (D13) held HIGH to keep the driver active.
 
 ### Battery 18650
 <div align="center"><img width="600" height="350" alt="image" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6ece9ad176f7af3fbcfbfabdd9c675156f8046a3/bateria-recargable-li-ion-2200-mah-tipo-18650.jpg" /></div>
@@ -182,8 +195,12 @@ the ultrasonic sensors, ensuring consistent operation throughout the run.
 
 ## Sense Management
 ------
+The sensing system combines three complementary technologies to give the robot full awareness of its environment:
+
 ### Microcontroller(Arduino nano)
 <div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/0d45ec5e-d666-4185-be01-94dc062a9f37" /></div>
+
+•	Ultrasonic sensing (HC-SR04 x2): Two sensors share a common Trig pin (D4) with separate Echo pins (D5 right, D7 left). Distance readings are taken each control loop cycle and used to compute a wall-centering error signal for the servo.
 
 ## Specifications:
 
@@ -305,6 +322,7 @@ We use this module to regulate the voltage supplied to the two Arduino PCBs, ste
 
 ## HuskyLens DFRobot
 
+•	Visual recognition (HuskyLens): Operating in Color Recognition mode over I2C, the HuskyLens detects trained color blobs (red = ID 1, green = ID 2) and reports the X-coordinate of the detected object center, mapped to a ±160 range relative to the frame center.
 <div align="center">
 <img width="600" height="800" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/87e61e8ba56e91d8834b0b9088b2661a81aa32ee/Camara.jpeg" />
 </div>
@@ -332,6 +350,7 @@ We use this module to regulate the voltage supplied to the two Arduino PCBs, ste
   
 ## Obstacle management
 
+The obstacle avoidance algorithm prioritizes vision data over wall-following when a colored pillar is detected.
 The obstacle avoidance system was designed in accordance with the competition rules: a **red pillar** indicates a right turn, while a **green pillar** indicates a left turn.  
 To determine the correct avoidance side, the robot calculates the difference between the **detected X position** from the camera and a predefined **X target**.  
 This approach ensures a reliable and consistent maneuver direction, improving the robot’s decision-making during navigation.
@@ -341,6 +360,7 @@ For this purpose, the X-coordinate at the base of the detected blob was used as 
 ------
 PCB
 ---
+A custom PCB was designed in EasyEDA to consolidate all electronic components onto a single board, reducing wiring complexity and improving reliability. The board includes dedicated connectors for two ultrasonic sensors (ULTRA1, ULTRA2), the HuskyLens camera (CAM), the servo motor (SERVO), the EV3 motor outputs (+OUT / -OUT), the Arduino Nano (U2), the TB6612FNG driver (U1), and BEC voltage regulators for 5V and 3.3V rails. The shared Trig line for both ultrasonic sensors is routed directly on the PCB to minimize signal noise.
 <div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cd8feb88dfa141fe0f5516e4ea4622495802dc7b/PCB%202026-04-11%20092141.png" /></div>
 
 ------
@@ -367,6 +387,8 @@ This was our final design for the WRO Future Engineers, this robot was used on W
 -------
 ## WRO 2026 Competition Info
 ----
+This robot was developed for the World Robot Olympiad 2026 Future Engineers category. The official competition rules (available in English and Spanish on the WRO website) define the track layout, obstacle placement, and scoring criteria. The vehicle must complete all three laps autonomously without any human intervention or remote control after the start signal.
+
 [WRO 2026 RULES Future Engineers English](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
 
 [WRO 2026 RULES Future Engineers Spanish](https://drive.google.com/file/d/1IJEXWpP0N-TZuE2kj__HQJZUOQY-1Yf7/view?pli=1) 
