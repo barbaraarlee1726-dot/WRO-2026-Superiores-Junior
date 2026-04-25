@@ -68,8 +68,6 @@ Role: Mechanic
 - [Mobility Management](#mobility-management)
   - [Chassis](#chassis)
   - [Steering System](#steering-system)
-  - [Movement and Traction System](#movement-and-traction-system)
-  - [Differential](#about-differential)
 - [Documentation](#Documentation)
 - [Power and Sense Management](#power-and-sense-management)
   - [Power Management](#power-management)
