@@ -1,6 +1,11 @@
 WRO-2026-FUTURE ENGINEERS
 ---------------------------
-Official repository of Team Los Grises Junior for the WORLD ROBOT OLYMPIAD 2026-Category: Future-Engineers – World Robot Olympiad 2026.
+This repository contains the technical documentation, source code, and design schematics for the autonomous vehicle developed by the Los Grises Junior team for the WRO 2026 competition. Our project focuses on the convergence of computer vision, efficient power management, and precision mechanical engineering.
+Category: Future Engineers
+
+Team Name: Los Grises Junior
+
+Location: Nuevo León, México
 <div align="center"><img width="1000" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/e16448bbbef45e752d7e7cce1f7787d7d7da0b3f/s%20(1).jpg" /></div>
 
 ## TEAM PHOTO
@@ -11,27 +16,26 @@ Official repository of Team Los Grises Junior for the WORLD ROBOT OLYMPIAD 2026-
 
 TEAM MEMBERS
 ---------
-Coach:Eduardo Alvarado Gonzalez
+Leadership & Coaching
+Coach: Eduardo Alvarado González (40 years old)
 
-Age:40
+Role: Strategic Mentor and Founder.
 <div align="center">
 <img width="400" height="300" alt="Eduardo Gonzalez" src="https://github.com/user-attachments/assets/20ccfb81-0bc1-4147-aa43-fefe649a55c0" />
 </div>
 
-
-Role: Coach and founder.
-
-"An engineer and professor founded the Los Grises Superiores in 2014, since then with outstanding national and international participations."
+Professional Profile: An engineer and professor with a career spanning back to 2014, when he founded “Los Grises Superiores.” His vision has inspired multiple generations of students to excel on national and international stages, fostering a culture of technical excellence and resilience.
 
 ---------------------------
 
-Barbara Arlee Flores Marroquin
+Bárbara Arlee Flores Marroquín (15 years old)
+
+Role: Captain and Electronics Lead.
 
 Age:15
 
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/d7c3253b324f993227be77801cb9ee21452fcf70/Photo%20Barbara.jpg" /></div>
 
-Role:Captain and electronic 
 
 "I got started in robotics in my sophomore year of high school, having been selected for my strong academic performance and adaptability, as well as my interest in challenges and complex designs, and I received a diploma for my achievements.I have honed my skills by taking additional robotics courses at this institution, where, in addition to learning, I received a certificate of completion."
 
@@ -43,7 +47,7 @@ Age:15
 
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/a03ef2db1c7b82816e94747b85b8fe7dd413cee5/Arath.jpeg" /></div>
 
-Role: Programmer
+Role:Lead Programmer.
 
 "I started in robotics at age 13 thanks to my mom, who started a robotics course at my school. There, I was told about a summer course offered by the Normal Superior of Nuevo León, Mexico, where I learned many things. After the course ended, a few months passed, and we were invited back. I was selected to compete in WRO."
 
@@ -82,9 +86,7 @@ The Future Engineers category is divided into two challenges:
 
 Open Challenge
 
-The vehicle must autonomously complete three full laps on a fixed-layout track.
-Both the starting position and the driving direction (clockwise or counterclockwise) are randomly determined before each attempt.
-
+The vehicle must complete three laps on a fixed-layout track. The complexity increases due to random factors; the starting position and direction of travel (clockwise or counterclockwise) are determined on the spot, requiring a navigation system that does not rely on pre-programmed routes but rather on active lane detection.
 Obstacle Challenge
 
 It follows the same dynamics as the Open Challenge, with the difference that the vehicle must identify and respond to colored pillars that act as traffic signals:
