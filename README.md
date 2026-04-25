@@ -12,10 +12,12 @@ Official repository of Team Los Grises Junior for the WORLD ROBOT OLYMPIAD 2026-
 TEAM MEMBERS
 ---------
 Coach:Eduardo Alvarado Gonzalez
+
+Age:40
 <div align="center">
 <img width="400" height="300" alt="Eduardo Gonzalez" src="https://github.com/user-attachments/assets/20ccfb81-0bc1-4147-aa43-fefe649a55c0" />
 </div>
-Age:40
+
 
 Role: Coach and founder.
 
