@@ -30,6 +30,5 @@ PCB
 | **Dimensions**             |52mm x 44.5mm|
 | **Working Temperature**    |36.4°C to 43.2°C|
 
-</div>
 
 We conect the Husky DFRobot using screws in the legos piece to unite them, we conect them with the PCB and program it.
