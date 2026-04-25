@@ -126,7 +126,6 @@ Vehicle's photos
 |5V/1A positive voltage regulator|Is a linear positive voltage regulator designed to provide a stable 5V output with up to 1A of current, commonly used in power supply circuits to regulate and maintain a constant voltage for electronic components.|<div align="center"><img width="500" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/b0b09cf5b315e9625422a291d922a3d7fb5e0e03/Regulator.jpg" /></div> |[Buy here](https://www.steren.com.mx/regulador-de-voltaje-positivo-5v-1a.html?srsltid=AfmBOop5WdfK0k6EYuWDN6c5NZKdqrNnHo_tHIPNIs3u9HatMaUCIQl2CDg)
 
 <div align="left">
----------------
 
 ## Mobility Management
 
