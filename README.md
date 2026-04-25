@@ -137,6 +137,8 @@ Vehicle's photos
 
 # Chassis
 ----
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/2f883c1757a8e5ca645581bd76abbd09ea64a7fa/Captura%20de%20pantalla%202026-04-25%20103424.png" /></div>
+
 ### Steering System
 The EV3’s middle motor converts rotational motion into steering movement through a gear train mechanism. The wheels are linked by a connecting rod, allowing them to move freely. With the assistance of the front differential, this setup transmits motion through the drivetrain to the rear motors, enabling smooth and controlled movement.
 
