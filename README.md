@@ -112,7 +112,6 @@ Vehicle's photos
 
 
 ## Components and Hardware
-====
 
 |COMPONENT| DESCRIPTION | IMAGE | PURCHASE LINK|
 |---------|-------------|-------|--------------|
