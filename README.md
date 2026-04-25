@@ -349,7 +349,7 @@ This is the process and documentation section during the WRO|Future Engineers ev
 Final Design
 -
 This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers.
-
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/856e3c9cdb833acaa731cf48815167f8c2af64ab/v-photos/Timmy%20Front%20image.jpeg" /></div>
 
 -------
 ## WRO 2026 Competition Info
