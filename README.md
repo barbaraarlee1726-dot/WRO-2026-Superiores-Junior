@@ -351,16 +351,16 @@ This is the process and documentation section during the WRO|Future Engineers ev
   Chasis prototype
  -
   <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/9585aa53627c91c51d5f9f3e4480d6173736c801/Chasis%20prototype%201.png" /></div>
-  This was our first design of our lego chasis.
+  This was our first design of our lego chasis. The chasis is designed for a solid base, we mantained this design for the final design.
 
   Robot prototype
   -
-  This is our first design robot, whith a little part of electronic components (ultrasonic sensor)
+  This is our first design robot, whith a little part of electronic components (ultrasonic sensor)The design has some electronic components but it´s still incomplet.
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/1d6766b931f55d4f645bd0e5e94f5d4e9a57dba0/Chasis%20prototype%202.png" /></div>
 
 Final Design
 -
-This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers.
+This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers. This design is fast, solid and has all the electronic components.
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/856e3c9cdb833acaa731cf48815167f8c2af64ab/v-photos/Timmy%20Front%20image.jpeg" /></div>
 
 -------
