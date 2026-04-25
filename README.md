@@ -100,15 +100,14 @@ Vehicle's photos
 
 | Front | Back |
 |:--:|:--:|
-|    |    |
-
+|<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Front%20image.jpeg" />  |<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Back%20image.jpeg" />   |
 | Bottom | Top |
 |:--:|:--:|
-|    |    |
+| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Down%20image.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Up%20image.jpeg" />  |
 
 | Left | Right |
 |:--:|:--:|
-|    |     |
+|  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Left%20image.jpeg" />   |<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/ed8a3840783d9b34b90d918c9f01ec809bdb8946/Timmy%20Right%20image.jpeg" />     |
 
 
 ## Components and Hardware
