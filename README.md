@@ -157,6 +157,11 @@ The chassis was designed and iterated through multiple prototypes, starting with
 The steering system uses a micro servo motor connected to pin D8 of the Arduino Nano. The servo operates within a constrained range of 65° to 115°, where 90° represents straight ahead. The steering angle is computed as a proportional correction based on the difference between left and right wall distances, or based on the X-position of a detected colored pillar.
 The EV3 Medium Motor handles propulsion through a gear train, with the rear wheels driven by the motor output. A connecting rod links the front wheels for coordinated turning. The TB6612FNG motor driver controls motor direction via digital pins D9 and D10, with PWM speed control on pin D11.
 
+<div align="center"><img width="300" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/ee343fb5de4011d7a7f6ad2b9691bac8bbc7c892/Steering%20System.png" /></div>
+
+<div align="center"><img width="300" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/ee343fb5de4011d7a7f6ad2b9691bac8bbc7c892/Sterring%20System.png" /></div>
+
+
 ## Power and Sense Management
 ---
 The Power and Sensor Management system of the vehicle is engineered to optimize energy distribution and ensure reliable operation of all electronic components. It carefully regulates the power supply to motors and sensors, maintaining stability and efficiency under varying load conditions. This system enables precise control over sensor readings and motor performance, supporting accurate navigation, obstacle detection, and overall vehicle functionality.
