@@ -424,6 +424,7 @@ Video
 -------
 ## WRO 2026 Competition Info
 ----
+<div align="left">
 This robot was developed for the World Robot Olympiad 2026 Future Engineers category. The official competition rules (available in English and Spanish on the WRO website) define the track layout, obstacle placement, and scoring criteria. The vehicle must complete all three laps autonomously without any human intervention or remote control after the start signal.
 
 [WRO 2026 RULES Future Engineers English](https://wro-association.org/wp-content/uploads/WRO-2025-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
