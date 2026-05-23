@@ -6,6 +6,14 @@ The WRO Future Engineers category challenges teams to design a vehicle capable o
 
 --------------
 
+
+We are the Junior Superiors team, and we are one of the teams that will be participating in the 2026 WRO (World Robot Olympiad) Future Engineers category.
+
+What is the WRO?
+
+The WRO is a competition that, as its name suggests, is a global competition. We are participating in the Future Engineers category, which focuses on autonomous cars. We have developed our robot named Timmy, an autonomous car whose goal is to navigate two different tracks presented in the competition: the Open Challenge and the Obstacle Challenge. The Open Challenge is an open track without obstacles that we must complete in the shortest time possible; the faster we go, the more points we earn. The Obstacle Challenge uses the same track but with different obstacles. In the Obstacle Challenge, there are two pillars of two different colors that we must navigate without colliding with them; the red pillar means turning right, while the green pillar means turning left. Timmy must navigate all these obstacles without hitting the walls or pillars.
+
+
 Our robot was designed as a single-piece unit;
 we did this to minimize the number of parts and make it simple
 to build.  Since the robot is a single
