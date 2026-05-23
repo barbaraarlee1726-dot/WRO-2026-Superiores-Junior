@@ -408,6 +408,19 @@ Final Design
 This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers. This design is fast, solid and has all the electronic components.
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/856e3c9cdb833acaa731cf48815167f8c2af64ab/v-photos/Timmy%20Front%20image.jpeg" /></div>
 
+
+Video
+------------
+
+<div align="center">
+
+  ### 🧩 Open Challenge  
+[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/6kmAHN4qDPE?si=1POMzmrOyH1lkwl3)
+
+
+### 🚧 Obstacle Challenge  
+[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/xn_0l1WUjrk?si=j1UkTalOoMqi3Pfn)
+
 -------
 ## WRO 2026 Competition Info
 ----
