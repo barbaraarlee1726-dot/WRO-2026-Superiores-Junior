@@ -3,6 +3,25 @@ WRO-2026-FUTURE ENGINEERS
 This document describes the complete design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad (WRO) 2026 under the Future Engineers category. Our robot integrates computer vision, gyroscopic navigation, ultrasonic sensing, and custom PCB design to achieve reliable autonomous operation.
 The WRO Future Engineers category challenges teams to design a vehicle capable of operating without any human intervention, adapting dynamically to track conditions and obstacles. The competition is divided into two main challenges:
 
+
+--------------
+
+Our robot was designed as a single-piece unit;
+we did this to minimize the number of parts and make it simple
+to build.  Since the robot is a single
+piece, it uses a traction system to support the robot’s entire weight because,
+being very large, it is quite heavy, which makes it difficult to reach high
+speeds. To solve this problem, we integrated a traction system
+so that with a single motor we can achieve a decent speed. We use a
+parallel steering system; its main advantages are saving space, having a
+greater advantage in turns because it provides better handling at high speeds, and
+reducing lateral wheel slip.
+
+
+The code we use is actually quite simple: we program the Husky Leens camera using Arduino via the PCB. The camera detects the colors of the pillars for the Obstacle Challenge category; if HuskyLeens detects a red pillar, it turns right; if it detects a green pillar, it turns left; so our robot knows which way to turn. The ultrasonic sensors are used for both categories (Open Challenge and Obstacle Challenge); they detect the black walls, so when they detect them at a certain close distance, the robot will turn to avoid colliding. We programmed everything using the board and an Arduino Uno; you can check out the code in src.
+
+In conclusion, our robot features a stable, durable, and powerful design, capable of meeting the challenges it faces. It uses simple yet effective programming. In my opinion, our main goal is to inspire new people interested in robotics so they can have a good time while discovering new things.
+
 Category: Future Engineers
 
 Team Name: Los Grises Junior
