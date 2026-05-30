@@ -90,7 +90,7 @@ Age:14
 
 Role: Mechanic
 
-"I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in mi first tournament in Los Grises Junior."
+"I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in my first tournament in Los Grises Junior."
 
 Alexis started robotics at age 10 and completed advanced courses at the Normal Superior de Nuevo León in late 2024. He is responsible for the chassis design, steering mechanism, drivetrain assembly, and all structural modifications made throughout the development process. This competition marks his first WRO tournament with Los Grises Junior.
 
