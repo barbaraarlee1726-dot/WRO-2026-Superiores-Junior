@@ -1,7 +1,7 @@
 WRO-2026-FUTURE ENGINEERS
 ---------------------------
 This document describes the complete design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad (WRO) 2026 under the Future Engineers category. Our robot integrates computer vision, gyroscopic navigation, ultrasonic sensing, and custom PCB design to achieve reliable autonomous operation.
-The WRO Future Engineers category challenges teams to design a vehicle capable of operating without any human intervention, adapting dynamically to track conditions and obstacles. The competition is divided into two main challenges:
+The WRO Future Engineers category challenges teams to design a vehicle capable of operating without any human intervention, adapting dynamically to track conditions and obstacles. The competition is divided into two main challenges: Open Challenge and Obstacle Challenge.
 
 
 --------------
