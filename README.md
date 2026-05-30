@@ -7,7 +7,7 @@ The WRO Future Engineers category challenges teams to design a vehicle capable o
 --------------
 
 
-We are the Junior Superiors team, and we are one of the teams that will be participating in the 2026 WRO (World Robot Olympiad) Future Engineers category.
+We are the Junior Superiors team, and we are one of the teams that will be participating in the 2026 WRO (World Robot Olympiad) Future Engineers category. This is our 5,000-character essay
 
 What is the WRO?
 
