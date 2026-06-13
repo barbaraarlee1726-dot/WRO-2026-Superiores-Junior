@@ -1,0 +1,29 @@
+from projects.pyhuskylens import HuskyLens, ALGORITHM_COLOR_RECOGNITION
+from hub import button
+import utime
+
+# Inicialización
+hl = HuskyLens('A', baud=9600, debug=False)
+hl.set_alg(ALGORITHM_COLOR_RECOGNITION)
+
+print("--- Imprimiendo coordenadas de color ---")
+print("X | Y | Ancho | Alto")
+
+while not button.right.is_pressed():
+    blocks = hl.get_blocks()
+
+    if len(blocks) > 0:
+        for block in blocks:
+            # Extraemos los datos del objeto detectado
+            x = block.x
+            y = block.y
+            w = block.width
+            h = block.height
+            # Imprimimos los valores formateados
+            print("X:{} Y:{} W:{} H:{}".format(x, y, w, h))
+    else:
+        print("No se detecta color")
+
+    # Pequeña pausa para no saturar la consola
+    utime.sleep_ms(100)
+    
