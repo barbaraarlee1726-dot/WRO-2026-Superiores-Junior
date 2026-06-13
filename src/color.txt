@@ -1,0 +1,74 @@
+from projects.pyhuskylens import HuskyLens, ALGORITHM_COLOR_RECOGNITION
+from spike import PrimeHub, Motor, DistanceSensor
+# Usamos directamente el import de micro-segundos para mayor precisión
+from utime import sleep_ms
+
+# --- CONFIGURACIÓN ---
+hub = PrimeHub()
+motor_giro = Motor('E')
+motor_avance = Motor('F')
+sensor_c = DistanceSensor('C')
+sensor_d = DistanceSensor('D')
+
+# Inicialización rápida de HuskyLens
+hl = HuskyLens('A', baud=9600, debug=False)
+hl.set_alg(ALGORITHM_COLOR_RECOGNITION)
+
+vuelta = 0
+VEL_AVANCE = 100
+hub.motion_sensor.reset_yaw_angle()
+
+# Aumentamos la frecuencia de actualización eliminando prints innecesarios
+while True:
+    # 1. Monitoreo del Giroscopio (Súper rápido)
+    if abs(hub.motion_sensor.get_yaw_angle()) > 90:
+        hub.motion_sensor.reset_yaw_angle()
+        vuelta += 1
+
+    if vuelta >= 12:
+        motor_avance.stop()
+        motor_giro.stop()
+        break
+
+    # 2. Captura de datos (Lectura directa)
+    blocks = hl.get_blocks()
+
+    # 3. LÓGICA DE REACCIÓN INSTANTÁNEA
+    if blocks: # Si la lista no está vacía
+        block = blocks[0]
+        motor_avance.start(speed=VEL_AVANCE)
+
+        # Reacción inmediata a IDs
+        if block.ID == 1:# VERDE -> IZQUIERDA
+            motor_giro.start(speed=50) # Subimos potencia para giro más rápido
+        elif block.ID == 2: # ROJO -> DERECHA
+            motor_giro.start(speed=-50)
+    else:
+        # Lógica de ultrasonidos ultra-rápida
+        dist_c = sensor_c.get_distance_cm()
+        dist_d = sensor_d.get_distance_cm()
+
+        # Filtro rápido de valores None
+        v_c = dist_c if dist_c else 300
+        v_d = dist_d if dist_d else 300
+
+        # Error de paredes (Invertido para esquivar)
+        error = (v_d - v_c)
+
+        # Si el error es mínimo, forzamos el retorno a 0 inmediatamente
+        if -3 < error < 3:
+            motor_giro.start_at_power(0)
+        else:
+            # Multiplicador más agresivo (1) para correcciones más rápidas
+            potencia = int(error * 1)
+
+            # Limitador rápido
+            if potencia > 60: potencia = 60
+            if potencia < -60: potencia = -60
+
+            motor_giro.start_at_power(potencia)
+
+    motor_avance.start(speed=VEL_AVANCE)
+
+    # Reducimos el sleep al mínimo absoluto (1ms) para que el ciclo corra a tope
+    sleep_ms(1)
