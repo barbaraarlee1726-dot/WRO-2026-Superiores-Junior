@@ -28,7 +28,7 @@ In conclusion, our robot features a stable, durable, and powerful design, capabl
 
 Category: Future Engineers
 
-Team Name: Los Grises Junior
+Team Name: Superiores Junior
 
 Location: Nuevo León, México
 <div align="center"><img width="1000" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/e16448bbbef45e752d7e7cce1f7787d7d7da0b3f/s%20(1).jpg" /></div>
