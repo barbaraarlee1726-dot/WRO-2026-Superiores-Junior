@@ -1,7 +1,7 @@
 WRO-2026-FUTURE ENGINEERS
 ---------------------------
 <div align="center"><img width="1000" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/e16448bbbef45e752d7e7cce1f7787d7d7da0b3f/s%20(1).jpg" /></div>
----------------------------
+
 This document describes the complete design and implementation of an autonomous vehicle built to compete in the World Robot Olympiad (WRO) 2026 under the Future Engineers category. Our robot integrates computer vision, gyroscopic navigation, ultrasonic sensing, and custom PCB design to achieve reliable autonomous operation.
 The WRO Future Engineers category challenges teams to design a vehicle capable of operating without any human intervention, adapting dynamically to track conditions and obstacles. The competition is divided into two main challenges: Open Challenge and Obstacle Challenge.
 
