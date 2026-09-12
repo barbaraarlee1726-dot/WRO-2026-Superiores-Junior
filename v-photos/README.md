@@ -37,8 +37,9 @@ Upgraded Design
 This was our upgraded design for the WRO Future Engineers, this robot was used on WRO videos.
 <img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/856e3c9cdb833acaa731cf48815167f8c2af64ab/v-photos/Timmy%20Front%20image.jpeg" /></div>
 
+<div align="center">
 
-Final Design
+  Final Design
 -
 This is our final design, with ultrasonic sensors on left, right and front.
 <img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/99dd2ebaf8be71937b588ec583007af0dcf0c9af/v-photos/Timmy%20Front%20image.jpeg" /></div>
