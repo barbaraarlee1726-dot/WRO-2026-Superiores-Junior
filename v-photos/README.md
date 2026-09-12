@@ -12,7 +12,7 @@ This directory contain 6 diferent photos of our robot Timmy
 
 | Bottom | Top |
 |:--:|:--:|
-| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Down%20image.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Up%20image.jpeg" />  |
+| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/26dc1a38403562762060b2b2ea5f13e3a65b84b2/Timmy%20Down%20image.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/371cee6807399b39237250df7d148db3ce93781e/v-photos/Timmy%20%20Up%20image.jpeg" />  |
 
 | Left | Right |
 |:--:|:--:|
