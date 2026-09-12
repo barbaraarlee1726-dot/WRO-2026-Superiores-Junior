@@ -35,7 +35,7 @@ Team Name: Superiores Junior
 Location: Nuevo León, México
 
 ## TEAM PHOTO
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/48995af1c66a6dbecf6ee10ec0bb18f319f49acc/Foto%20divertida%20equipo.jpeg" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/3d756452718b39d3a33ebd67da172c71794a2dba/t-photos/team%20photo.jpeg" /></div>
 
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/d6ed62a12864ca15cbd8bb65d1c69638c11637c5/t-photos/Funny%20Team%20photo.jpeg"/></div>
 
