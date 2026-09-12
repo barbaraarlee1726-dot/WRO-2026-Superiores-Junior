@@ -83,19 +83,6 @@ Arath began his robotics journey at age 13 after participating in a course at th
 
 ---------------------------
 
-Alexis Fernando Martínez Tapia
-
-Age:14
-
-<div align="center"><img width="500" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/6fc438b44809f8b7383caa233e0a7e4161a2b77c/Alexis.jpeg" /></div>
-
-Role: Mechanic
-
-"I started the robotic for first time at the age of 10 years, i thake another course in Normal Superior Mexico Nuevo Leon in finals of 2024 and i go to Normal Superior to take another course of robotics where i am gona to participate in my first tournament in Los Grises Junior."
-
-Alexis started robotics at age 10 and completed advanced courses at the Normal Superior de Nuevo León in late 2024. He is responsible for the chassis design, steering mechanism, drivetrain assembly, and all structural modifications made throughout the development process. This competition marks his first WRO tournament with Los Grises Junior.
-
----------------------------
 
 ## 📚 Contents
 - [Project Overview](#project-overview)
