@@ -32,18 +32,15 @@ This directory contain 6 diferent photos of our robot Timmy
   This is our first design robot, whith a little part of electronic components (ultrasonic sensor)
 <div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/1d6766b931f55d4f645bd0e5e94f5d4e9a57dba0/Chasis%20prototype%202.png" /></div>
 
-Final Design
+Upgraded Design
 -
-This was our final design for the WRO Future Engineers, this robot was used on WRO Future Engineers.
+This was our upgraded design for the WRO Future Engineers, this robot was used on WRO videos.
 <img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/856e3c9cdb833acaa731cf48815167f8c2af64ab/v-photos/Timmy%20Front%20image.jpeg" /></div>
 
 
-
-
-
-
-
-
-
+Final Design
+-
+This is our final design, with ultrasonic sensors on left, right and front.
+<img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/99dd2ebaf8be71937b588ec583007af0dcf0c9af/v-photos/Timmy%20Front%20image.jpeg" /></div>
 
 
