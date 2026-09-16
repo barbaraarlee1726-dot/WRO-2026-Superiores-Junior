@@ -441,8 +441,46 @@ he vision system was also designed to support the obstacle avoidance logic.
 For this purpose, the X-coordinate at the base of the detected blob was used as the main metric, providing more reliable results than using the object’s area, which occasionally produced inconsistent data.
 
 ------
-PCB
+## Systems Thinking & Engineering Decisions
+
+### Subsystem Interaction
+
+Timmy's subsystems are designed to work together without conflict: the 
+Arduino Nano acts as the central controller, reading the ultrasonic sensors 
+and HuskyLens simultaneously, and outputting steering and motor commands 
+through the TB6612FNG driver. Under normal conditions the ultrasonic sensors 
+drive the steering correction (wall-following); when the HuskyLens detects a 
+colored pillar, its data takes priority and overrides the wall-following 
+correction until the obstacle is cleared, at which point control returns to 
+the ultrasonic sensors. This handoff between vision and distance sensing is 
+the core constraint the software architecture is built around.
+
+### Engineering Decisions: Why X Instead of Y
+
+**HuskyLens vs. a simple color sensor:** Our first approach used a basic 
+color sensor to identify the red/green pillars. In testing, it proved 
+inconsistent — detections were less precise and less repeatable across runs. 
+We switched to the HuskyLens AI camera because it detected colors with 
+noticeably higher precision and consistency, in addition to already 
+providing the object's X-position, which our avoidance logic depends on.
+  
+### Risk Analysis & Mitigation
+
+<div align="center">
+
+| Risk | Cause | Mitigation |
+|---|---|---|
+| Robot failed to move (traction/servo not responding) | Programming error in the motor/servo control logic | Identified and corrected the code controlling the traction and steering output |
+| Unreliable ultrasonic sensor readings | One sensor was incorrectly wired/connected | Inspected and corrected the wiring/connections to the ultrasonic sensors |
+
+Identifying these failure points early in testing allowed the team to correct 
+them before they affected performance in the actual runs, and reinforced the 
+importance of verifying both code and physical connections whenever a 
+subsystem behaves unexpectedly.
+
+</div>
 ---
+PCB
 A custom PCB was designed in EasyEDA to consolidate all electronic components onto a single board, reducing wiring complexity and improving reliability. The board includes dedicated connectors for two ultrasonic sensors (ULTRA1, ULTRA2), the HuskyLens camera (CAM), the servo motor (SERVO), the EV3 motor outputs (+OUT / -OUT), the Arduino Nano (U2), the TB6612FNG driver (U1), and BEC voltage regulators for 5V and 3.3V rails. The shared Trig line for both ultrasonic sensors is routed directly on the PCB to minimize signal noise.
 <div align="center"><img width="700" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cd8feb88dfa141fe0f5516e4ea4622495802dc7b/PCB%202026-04-11%20092141.png" /></div>
 
