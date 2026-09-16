@@ -363,6 +363,18 @@ We use this module to regulate the voltage supplied to the two Arduino PCBs, ste
 
 --------------------
 <div align="left">
+
+## Software Architecture
+
+### State Machine
+
+The robot's control software is organized as a finite state machine (FSM), 
+allowing each subsystem (ultrasonic wall-following, HuskyLens color detection, 
+lap counting) to activate only when needed and preventing conflicting commands 
+between systems.
+
+
+--------------------
   
 ## Obstacle management
 
