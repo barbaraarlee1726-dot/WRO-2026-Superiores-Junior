@@ -160,7 +160,7 @@ The HuskyLens AI camera handles color recognition and calculates the X-position 
 
 # Chassis
 ----
-<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/2f883c1757a8e5ca645581bd76abbd09ea64a7fa/Captura%20de%20pantalla%202026-04-25%20103424.png" /></div>
+<div align="center"><img width="600" height="500" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/dc72fd3e437ba2c279de380a9e1b0bba9503c513/v-photos/Ilustration%20Chasis%20.png" /></div>
 
 The chassis was designed and iterated through multiple prototypes, starting with a LEGO-based frame and evolving into a compact, rigid structure optimized for the competition track dimensions. The final design prioritizes a low center of gravity and tight turning radius to handle the track corners reliably.
 
