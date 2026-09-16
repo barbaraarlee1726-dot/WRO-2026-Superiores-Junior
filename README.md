@@ -377,7 +377,7 @@ between systems.
 
 | State | Description |
 |---|---|
-| **INIT** | Powers on all subsystems. Sensors and the HuskyLens camera initialize in parallel with the board power-up sequence; the robot waits briefly to ensure stable readings before entering the main loop. |
+| **START** | Powers on all subsystems. Sensors and the HuskyLens camera initialize in parallel with the board power-up sequence; the robot waits briefly to ensure stable readings before entering the main loop. |
 | **WALL-FOLLOW** | Default driving state. Uses proportional control on the two HC-SR04 ultrasonic sensors (error = distance_right − distance_left) to keep the robot centered between walls. |
 | **OBSTACLE DETECT** | Runs concurrently with WALL-FOLLOW. The HuskyLens continuously scans for red/green color blobs; when one is detected above a confidence/size threshold, the FSM transitions to OBSTACLE AVOID. |
 | **OBSTACLE AVOID** | Vision data overrides wall-following. The steering correction is computed from the difference between the pillar's X-position and a target X-offset (right pass for red, left pass for green). |
