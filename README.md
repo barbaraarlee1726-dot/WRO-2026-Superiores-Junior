@@ -378,15 +378,15 @@ between systems.
 | State | Description |
 |---|---|
 | **INIT** | Powers on all subsystems. Sensors and the HuskyLens camera initialize in parallel with the board power-up sequence; the robot waits briefly to ensure stable readings before entering the main loop. |
-| **WALL_FOLLOW** | Default driving state. Uses proportional control on the two HC-SR04 ultrasonic sensors (error = distance_right − distance_left) to keep the robot centered between walls. |
-| **OBSTACLE_DETECT** | Runs concurrently with WALL_FOLLOW. The HuskyLens continuously scans for red/green color blobs; when one is detected above a confidence/size threshold, the FSM transitions to OBSTACLE_AVOID. |
-| **OBSTACLE_AVOID** | Vision data overrides wall-following. The steering correction is computed from the difference between the pillar's X-position and a target X-offset (right pass for red, left pass for green). |
-| **LAP_COUNT** | Runs in the background throughout the run, tracking full rotations to determine when the required number of laps has been completed. |
+| **WALL-FOLLOW** | Default driving state. Uses proportional control on the two HC-SR04 ultrasonic sensors (error = distance_right − distance_left) to keep the robot centered between walls. |
+| **OBSTACLE DETECT** | Runs concurrently with WALLnFOLLOW. The HuskyLens continuously scans for red/green color blobs; when one is detected above a confidence/size threshold, the FSM transitions to OBSTACLE AVOID. |
+| **OBSTACLE AVOID** | Vision data overrides wall-following. The steering correction is computed from the difference between the pillar's X-position and a target X-offset (right pass for red, left pass for green). |
+| **LAP COUNT** | Runs in the background throughout the run, tracking full rotations to determine when the required number of laps has been completed. |
 | **STOP** | Triggered once the lap count condition is met. Motor output is set to zero and steering returns to center. |
 
 </div>
 
-### Control Algorithm
+## Control Algorithm
 
 Wall-following uses **simple proportional control**: the steering correction is 
 calculated as `error × Kp`, where `error` is the difference between the left 
@@ -394,6 +394,7 @@ and right ultrasonic readings. We chose proportional-only control over full PID
 because it was the approach the team was most comfortable with and understood 
 best, it was faster to implement given our development timeline, and it was 
 sufficient for what the robot needed to accomplish given its function.
+
 --------------------
   
 ## Obstacle management
