@@ -428,6 +428,7 @@ around 6–7 test runs — measuring lap completion time after each adjustment.
 When a change showed improvement (faster, more stable laps), speed was 
 incrementally increased alongside other refinements made across the 
 programming, rather than tuning a single parameter in isolation.
+
 --------------------
   
 ## Obstacle management
