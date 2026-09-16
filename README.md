@@ -395,6 +395,39 @@ because it was the approach the team was most comfortable with and understood
 best, it was faster to implement given our development timeline, and it was 
 sufficient for what the robot needed to accomplish given its function.
 
+### Edge Case Handling
+
+During development we identified and resolved several edge cases:
+
+- **Inaccurate wall distance readings:** In early tests, the ultrasonic sensors 
+  did not measure distances reliably, causing the robot to misjudge wall 
+  proximity and collide. This was resolved by recalibrating sensor placement 
+  and adjusting the distance thresholds used for the wall-following correction.
+
+- **False color detection:** Due to the HuskyLens camera's mounting height, 
+  it initially detected color blobs from the robot's own front-facing parts, 
+  mistaking them for pillars. This was fixed by adjusting the camera's angle 
+  and height so its field of view only captures the track ahead.
+
+- **Contact with obstacles during avoidance:** In some runs, the robot would 
+  graze or lightly collide with pillars while attempting to avoid them. This 
+  required refining the avoidance trajectory — adjusting the target X-offset 
+  and turning radius used in the OBSTACLE_AVOID state.
+
+- **Wall contact/dragging during avoidance:** Even though the robot generally 
+  detected and avoided walls correctly, there were cases where it clipped or 
+  dragged along a wall instead of maintaining a clean distance. This was 
+  addressed by adjusting the acceptable error margin in the wall-following 
+  logic through iterative testing until the robot consistently maintained a 
+  safe distance without contact.
+
+### Testing & Tuning Process
+
+The steering and speed parameters were tuned through iterative testing — 
+around 6–7 test runs — measuring lap completion time after each adjustment. 
+When a change showed improvement (faster, more stable laps), speed was 
+incrementally increased alongside other refinements made across the 
+programming, rather than tuning a single parameter in isolation.
 --------------------
   
 ## Obstacle management
