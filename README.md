@@ -170,7 +170,7 @@ The EV3 Medium Motor handles propulsion through a gear train, with the rear whee
 
 <div align="center"><img width="300" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/fa7795c35239922ebc60fc537476e5c277e0d680/v-photos/Robot.png" /></div>
 
-<div align="center"><img width="300" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/ee343fb5de4011d7a7f6ad2b9691bac8bbc7c892/Sterring%20System.png" /></div>
+<div align="center"><img width="300" height="300" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/eb8a5a3a5bc870be395ae2b78ab78235e98ff266/v-photos/Photo%20robot.png" /></div>
 
 
 ## Power and Sense Management
