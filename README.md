@@ -423,7 +423,7 @@ graph TD
     style UNO fill:#bfdbfe
 ```
 </div
-
+-----
 ## Control Algorithm
 
 Wall-following uses **simple proportional control**: the steering correction is 
