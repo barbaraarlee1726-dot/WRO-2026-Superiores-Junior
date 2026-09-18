@@ -213,10 +213,10 @@ the ultrasonic sensors, ensuring consistent operation throughout the run.
 ------
 The sensing system combines three complementary technologies to give the robot full awareness of its environment:
 
-### Microcontroller(Arduino nano)
-<div align="center"><img width="600" height="350" alt="OpenMV Cam H7 Plus" src="https://github.com/user-attachments/assets/0d45ec5e-d666-4185-be01-94dc062a9f37" /></div>
+### Microcontroller (Arduino UNO R3)
+<div align="center"><img width="600" height="350" alt="Arduino UNO R3" src="https://github.com/barbaraarlee1726-dot/WRO-2026 -Superiores-Junior/blob/8c0f4ff5c312a9b8ccd5fcc9ef8c5e460571a053/other/Arduino%20uno%20R3%20HARDWARE.webp" /></div>
 
-•	Ultrasonic sensing (HC-SR04 x2): Two sensors share a common Trig pin (D4) with separate Echo pins (D5 right, D7 left). Distance readings are taken each control loop cycle and used to compute a wall-centering error signal for the servo.
+- Ultrasonic sensing (HC-SR04 x5): Five sensors provide distance readings around the robot (front, sides, and rear coverage), sharing two Trig lines (TRIG1, TRIG2) across the array, while each sensor has its own dedicated Echo pin (D2, D3, D5, D6, D7). Distance readings are taken during each control loop cycle and used to compute a wall-centering error signal for the servo, as well as to detect walls ahead before initiating a turn.
 
 ## Specifications:
 
@@ -229,20 +229,23 @@ The sensing system combines three complementary technologies to give the robot f
 | **Input Voltage (recommended)** | 7–12 V |
 | **Input Voltage (limit)** | 6–20 V |
 | **Digital I/O Pins**      | 14 (6 PWM outputs) |
-| **Analog Input Pins**     | 8 |
-| **DC Current per I/O Pin** | 40 mA |
-| **Flash Memory**          | 32 KB (2 KB used by bootloader) |
+| **Analog Input Pins**     | 6 |
+| **DC Current per I/O Pin** | 20 mA |
+| **DC Current for 3.3V Pin** | 50 mA |
+| **Flash Memory**          | 32 KB (0.5 KB used by bootloader) |
 | **SRAM**                  | 2 KB |
 | **EEPROM**                | 1 KB |
 | **Clock Speed**           | 16 MHz |
-| **USB Connection**        | Mini USB |
-| **Dimensions**            | 45 mm x 18 mm |
-| **Weight**                | ~7 g |
+| **USB Connection**        | USB-B |
+| **Dimensions**            | 68.6 mm x 53.4 mm |
+| **Weight**                | ~25 g |
 
 </div>
 
-The Arduino Nano is a compact,microcontroller board based on the ATmega328P. Despite its small size, it offers full functionality with 14 digital I/O pins, 8 analog inputs, and a 16 MHz clock speed.
-It operates at 5V and can be powered through a Mini USB connection, a regulated 5V pin, or an external 7–12V input,
+The Arduino UNO R3 is a microcontroller board based on the ATmega328P, the same core chip used in the Nano, but on a larger form factor that offers more mechanical mounting stability and a standard USB-B connector for easier debugging on the workbench. It provides 14 digital I/O pins (6 with PWM) and 6 analog inputs, running at a 16 MHz clock speed.
+It operates at 5V and can be powered through USB, a regulated 5V pin, or an external 7–12V input via its barrel jack or VIN pin.
+
+We selected the UNO R3 over the Nano for the final version of the robot because the higher pin count and more robust I/O current handling (20 mA per pin vs. the Nano's tighter margins) gave us headroom to drive five ultrasonic sensors, the HuskyLens camera, the MPU6050 IMU, the steering servo, and a NeoPixel indicator strip simultaneously without signal degradation, while the larger footprint made it easier to mount securely to the chassis alongside the TB6612FNG driver board.
 
 ### Medium motor EV3
 <div align="center">
