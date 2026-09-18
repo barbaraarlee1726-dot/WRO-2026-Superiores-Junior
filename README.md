@@ -387,7 +387,42 @@ between systems.
 | **LAP COUNT** | Runs in the background throughout the run, tracking full rotations to determine when the required number of laps has been completed. |
 | **STOP** | Triggered once the lap count condition is met. Motor output is set to zero and steering returns to center. |
 
-</div>
+</div
+------
+Wiring Diagram / Electrical Connections
+
+<div align="center">
+```mermaid
+graph TD
+    BAT["2x 18650 Li-ion en serie<br/>7.4V, 2200mAh"] -->|VM, vía interruptor| TB["TB6612FNG<br/>(driver motor EV3)"]
+    BAT -->|7.4V| BUCK1["Mini560 Buck #1 (U1)<br/>→ 5+ (riel principal)"]
+    BAT -->|7.4V| BUCK2["Mini560 Buck #2 (U3)<br/>→ alimenta 7805s"]
+ 
+    BUCK1 --> UNO["Arduino UNO R3"]
+    BUCK1 --> ULTRAS["5x HC-SR04<br/>ULTRA1–ULTRA5"]
+    BUCK1 --> VOLT["Voltímetro<br/>(monitorea VM/batería)"]
+ 
+    BUCK2 --> REGSER["Regulador 7805<br/>(REG_SER) → SER_5+"]
+    BUCK2 --> REGLED["Regulador 7805<br/>(REG_LED) → LEDS_5+"]
+    REGSER --> SERVO["Servomotor dirección<br/>(D8)"]
+    REGLED --> LEDS["Tira NeoPixel<br/>(D12)"]
+ 
+    UNO -->|"Trig D4 → ULTRA1,2,3 | Trig D13 → ULTRA4,5"| ULTRAS
+    ULTRAS -->|"Echo: D5,D6,D7,D2,D3 (confirmado)"| UNO
+ 
+    UNO <-->|I2C: SCL/SDA compartido| MPU["MPU6050 (IMU)"]
+    UNO <-->|I2C: SCL/SDA, mismo bus| HUSKY["HuskyLens (CAM)"]
+ 
+    UNO -->|AIN1, AIN2, PWMA| TB
+    UNO -->|STBY| TB
+    TB -->|MA1 / MA2, vía conector RJ12| EV3["Motor EV3<br/>(tracción)"]
+ 
+    style BAT fill:#fde68a
+    style BUCK1 fill:#bbf7d0
+    style BUCK2 fill:#bbf7d0
+    style UNO fill:#bfdbfe
+```
+</div
 
 ## Control Algorithm
 
