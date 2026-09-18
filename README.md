@@ -214,7 +214,7 @@ the ultrasonic sensors, ensuring consistent operation throughout the run.
 The sensing system combines three complementary technologies to give the robot full awareness of its environment:
 
 ### Microcontroller (Arduino UNO R3)
-<div align="center"><img width="600" height="350" alt="Arduino UNO R3" src="https://github.com/barbaraarlee1726-dot/WRO-2026 -Superiores-Junior/blob/8c0f4ff5c312a9b8ccd5fcc9ef8c5e460571a053/other/Arduino%20uno%20R3%20HARDWARE.webp" /></div>
+<div align="center"><img width="600" height="350" alt="Arduino UNO R3" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/602e8a5f7089ed098c41459e10cf9e20aa696f7f/other/Arduino%20uno%20R3%20HARDWARE.webp" /></div>
 
 - Ultrasonic sensing (HC-SR04 x5): Five sensors provide distance readings around the robot (front, sides, and rear coverage), sharing two Trig lines (TRIG1, TRIG2) across the array, while each sensor has its own dedicated Echo pin (D2, D3, D5, D6, D7). Distance readings are taken during each control loop cycle and used to compute a wall-centering error signal for the servo, as well as to detect walls ahead before initiating a turn.
 
