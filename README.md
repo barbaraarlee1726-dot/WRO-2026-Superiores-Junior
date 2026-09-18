@@ -127,15 +127,15 @@ The HuskyLens AI camera handles color recognition and calculates the X-position 
 
 | Front | Back |
 |:--:|:--:|
-|<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/99dd2ebaf8be71937b588ec583007af0dcf0c9af/v-photos/Timmy%20Front%20image.jpeg" />  |<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cf8accbd345309d0447538aa3c0fe903fdcdd5df/v-photos/Timmy%20Back%20image.jpeg" />   |
+|<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/88b64f05801ea3f239bbac4f5a5f591bcdb5ce26/other/Front%20Pozolito.jpeg" />  |<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/88b64f05801ea3f239bbac4f5a5f591bcdb5ce26/other/Back%20Pozolito.jpeg" />   |
 
 | Bottom | Top |
 |:--:|:--:|
-| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/02103ab552e8604ccfe02d0eca8a27e63d65e3d6/other/Bottom%20Pozolito.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cf8accbd345309d0447538aa3c0fe903fdcdd5df/v-photos/Timmy%20%20Up%20image.jpeg" />  |
+| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/02103ab552e8604ccfe02d0eca8a27e63d65e3d6/other/Bottom%20Pozolito.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/88b64f05801ea3f239bbac4f5a5f591bcdb5ce26/other/Top%20Pozolito.jpeg" />  |
 
 | Left | Right |
 |:--:|:--:|
-|  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cf8accbd345309d0447538aa3c0fe903fdcdd5df/v-photos/Timmy%20Left%20image.jpeg" />   |<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cf8accbd345309d0447538aa3c0fe903fdcdd5df/v-photos/Timmy%20Right%20Image.jpeg" />     |
+|  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/88b64f05801ea3f239bbac4f5a5f591bcdb5ce26/other/Left%20Pozolito.jpeg" />   |<img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/88b64f05801ea3f239bbac4f5a5f591bcdb5ce26/other/Right%20Pozolito.jpeg" />     |
 
 
 ## Components and Hardware
