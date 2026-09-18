@@ -131,7 +131,7 @@ The HuskyLens AI camera handles color recognition and calculates the X-position 
 
 | Bottom | Top |
 |:--:|:--:|
-| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/70ddbcd5fa243be62507f965f7fea24927773982/v-photos/Timmy%20down%20Image.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cf8accbd345309d0447538aa3c0fe903fdcdd5df/v-photos/Timmy%20%20Up%20image.jpeg" />  |
+| <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/02103ab552e8604ccfe02d0eca8a27e63d65e3d6/other/Bottom%20Pozolito.jpeg" /> |  <img width="300" height="250" alt="OpenMV Cam H7 Plus" src="https://github.com/barbaraarlee1726-dot/WRO-2026-Superiores-Junior/blob/cf8accbd345309d0447538aa3c0fe903fdcdd5df/v-photos/Timmy%20%20Up%20image.jpeg" />  |
 
 | Left | Right |
 |:--:|:--:|
