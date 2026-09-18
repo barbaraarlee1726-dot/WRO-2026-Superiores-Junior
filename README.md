@@ -520,11 +520,11 @@ Video
 <div align="center">
 
   ### 🧩 Open Challenge  
-[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/6kmAHN4qDPE?si=1POMzmrOyH1lkwl3)
+[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/rVBfsJJm27w)
 
 
 ### 🚧 Obstacle Challenge  
-[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/xn_0l1WUjrk?si=j1UkTalOoMqi3Pfn)
+[![Watch the video](https://img.shields.io/badge/▶️%20Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/zmg75m-c79s)
 
 -------
 ## WRO 2026 Competition Info
