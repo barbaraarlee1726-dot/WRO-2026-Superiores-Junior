@@ -392,6 +392,7 @@ between systems.
 Wiring Diagram / Electrical Connections
 
 <div align="center">
+  
 ```mermaid
 graph TD
     BAT["2x 18650 Li-ion en serie<br/>7.4V, 2200mAh"] -->|VM, vía interruptor| TB["TB6612FNG<br/>(driver motor EV3)"]
@@ -422,8 +423,7 @@ graph TD
     style BUCK2 fill:#bbf7d0
     style UNO fill:#bfdbfe
 ```
-</div
------
+
 ## Control Algorithm
 
 Wall-following uses **simple proportional control**: the steering correction is 
@@ -483,7 +483,7 @@ For this purpose, the X-coordinate at the base of the detected blob was used as 
 
 ### Subsystem Interaction
 
-Timmy's subsystems are designed to work together without conflict: the 
+Pozolito's subsystems are designed to work together without conflict: the 
 Arduino Nano acts as the central controller, reading the ultrasonic sensors 
 and HuskyLens simultaneously, and outputting steering and motor commands 
 through the TB6612FNG driver. Under normal conditions the ultrasonic sensors 
