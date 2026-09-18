@@ -1,0 +1,149 @@
+/*!
+ * MindPlus
+ * uno
+ *
+ */
+#include <DFRobot_URM10.h>
+#include <DFRobot_Servo.h>
+#include <MPU6050Bloques.h>
+#include <DFRobot_NeoPixel.h>
+#include <DFRobot_HuskyLens.h>
+
+// Dynamic variables
+volatile float mind_n_ID, mind_n_X, mind_n_Y, mind_n_ALTO, mind_n_ANCHO, mind_n_limites,
+               mind_n_esquinas, mind_n__25izq, mind_n_frontal, mind_n__25der, mind_n__90izq,
+               mind_n__90der, mind_n_error, mind_n_tiempo, mind_n_velocidad, mind_n_ERROR_CAM;
+// Function declaration
+void DF_actualizar_Huskylens();
+void DF_Motor(float mind_n_float);
+void DF_Inicio();
+void DF_Actualizar_Distancia();
+void DF__3_vueltas(float mind_n_VELOCIDAD);
+void DF_Lecturas();
+void DF_Volante(float mind_n_float);
+// Create an object
+DFRobot_HuskyLens huskylens;
+DFRobot_NeoPixel  neoPixel_12;
+MPU6050Bloques    mpu6050;
+DFRobot_URM10     urm10;
+Servo             servo_8;
+
+
+// Main program start
+void setup() {
+	pinMode(9, OUTPUT);
+	pinMode(10, OUTPUT);
+	mpu6050.iniciar(0x68);
+	servo_8.attach(8);
+	DF_Inicio();
+}
+void loop() {
+	neoPixel_12.setRangeColor(0, 7, 0xFFFFFF);
+	DF_actualizar_Huskylens();
+	DF_Actualizar_Distancia();
+	DF__3_vueltas(40);
+	DF_Motor(mind_n_velocidad);
+	if ((mind_n_ID>0)) {
+		DF_actualizar_Huskylens();
+		if ((mind_n_ID==1)) {
+			DF_actualizar_Huskylens();
+			mind_n_ERROR_CAM = (constrain((map((mind_n_X + 100), -160, 160, 70, 110)), 75, 110));
+			DF_Volante(mind_n_ERROR_CAM);
+			huskylens.writeOSD(String((String("X= ") + String(mind_n_X))), 30, 30);
+			huskylens.writeOSD(String("CAM"), 30, 60);
+		}
+		if ((mind_n_ID==2)) {
+			DF_actualizar_Huskylens();
+			mind_n_ERROR_CAM = (constrain((map((mind_n_X - 100), -160, 160, 70, 110)), 70, 110));
+			DF_Volante(mind_n_ERROR_CAM);
+			huskylens.writeOSD(String((String("X= ") + String(mind_n_X))), 30, 30);
+			huskylens.writeOSD(String("CAM"), 30, 60);
+		}
+	}
+	else {
+		DF_Actualizar_Distancia();
+		DF_Volante((mind_n_error * 0.9));
+		huskylens.writeOSD(String((String("DIS= ") + String(mind_n_error))), 30, 60);
+	}
+}
+
+
+// Custom function
+void DF_actualizar_Huskylens() {
+	huskylens.request();
+	if (huskylens.isAppearDirect(HUSKYLENSResultBlock)) {
+		if ((huskylens.readBlockParameter(1).width>huskylens.readBlockParameter(2).width)) {
+			mind_n_ID = 1;
+			mind_n_X = (map(huskylens.readBlockParameter(1).xCenter, 0, 320, -160, 160));
+			mind_n_Y = (map(huskylens.readBlockParameter(1).yCenter, 0, 320, -160, 160));
+			mind_n_ALTO = huskylens.readBlockParameter(1).height;
+			mind_n_ANCHO = huskylens.readBlockParameter(1).width;
+		}
+		else {
+			mind_n_ID = 2;
+			mind_n_X = (map(huskylens.readBlockParameter(2).xCenter, 0, 320, -160, 160));
+			mind_n_Y = (map(huskylens.readBlockParameter(2).yCenter, 0, 320, -160, 160));
+			mind_n_ALTO = huskylens.readBlockParameter(2).height;
+			mind_n_ANCHO = huskylens.readBlockParameter(2).width;
+		}
+	}
+	else {
+		mind_n_ID = 0;
+		mind_n_X = 0;
+		mind_n_Y = 0;
+		mind_n_ALTO = 0;
+		mind_n_ANCHO = 0;
+	}
+}
+void DF_Motor(float mind_n_float) {
+	digitalWrite(9, LOW);
+	digitalWrite(10, HIGH);
+	analogWrite(11, (map(mind_n_float, 0, 100, 0, 255)));
+}
+void DF_Inicio() {
+	huskylens.beginI2CUntilSuccess();
+	huskylens.writeAlgorithm(ALGORITHM_COLOR_RECOGNITION);
+	neoPixel_12.begin(12, 8);
+	neoPixel_12.setBrightness(150);
+	mind_n_limites = 20;
+	mind_n_esquinas = 0;
+	Serial.begin(9600);
+	mpu6050.calibrar(600);
+	mpu6050.reiniciarAngulos();
+	mpu6050.calibrar(600);
+}
+void DF_Actualizar_Distancia() {
+	mind_n__25izq = (urm10.getDistanceCM(4, 5));
+	mind_n_frontal = (urm10.getDistanceCM(4, 6));
+	mind_n__25der = (urm10.getDistanceCM(4, 7));
+	mind_n__90izq = (urm10.getDistanceCM(13, 2));
+	mind_n__90der = (urm10.getDistanceCM(13, 3));
+	mind_n_error = (map((((mind_n__90izq + mind_n__25izq) - (mind_n__25der + mind_n__90der)) * -1), -100, 100, (90 - mind_n_limites), (90 + mind_n_limites)));
+}
+void DF__3_vueltas(float mind_n_VELOCIDAD) {
+	mpu6050.actualizar();
+	mpu6050.establecerZonaMuerta(0.3);
+	if ((((mpu6050.angulo(2))>=87) || ((mpu6050.angulo(2))<=-87))) {
+		mpu6050.reiniciarAngulos();
+		mind_n_esquinas = (mind_n_esquinas + 1);
+	}
+	if ((mind_n_esquinas>=12)) {
+		mind_n_tiempo = (millis() + 250);
+		while (!(millis()>=mind_n_tiempo)) {
+			DF_Actualizar_Distancia();
+			DF_Motor(mind_n_velocidad);
+			DF_Volante((mind_n_error * 0.9));
+		}
+		mind_n_velocidad = 0;
+	}
+	else {
+		mind_n_velocidad = mind_n_VELOCIDAD;
+	}
+}
+void DF_Lecturas() {
+	Serial.println((String((String("ángulo ") + String((mpu6050.angulo(2))))) + String((String(" acumulado ") + String((mpu6050.vueltasZ()))))));
+	Serial.println((String((String((String("25i ") + String(mind_n__25izq))) + String((String(" 90i ") + String(mind_n__90izq))))) + String((String((String(" error ") + String(mind_n_error))) + String((String((String(" 25d ") + String(mind_n__25der))) + String((String("  90d ") + String(mind_n__90der)))))))));
+}
+void DF_Volante(float mind_n_float) {
+	servo_8.angle(abs(mind_n_float));
+}
